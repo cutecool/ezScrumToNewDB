@@ -1,0 +1,44 @@
+*** Settings ***
+Resource          ../ProductBacklog/ezScrum_ProductBacklog_Story.txt
+Resource          ../SprintPlan/ezScrum_SprintPlan_Sprint.txt
+Resource          ../SprintBacklog/ezScrum_SprintBacklog_Story.txt
+Resource          ../SprintBacklog/ezScrum_SprintBacklog_Task.txt
+Resource          ../AccountManagement/ezScrum_AccountManagement_Management.txt
+Resource          ../ScrumRole/ezScrum_ScrumRole_Account.txt
+Resource          ezScrum_Project.txt
+
+*** Variables ***
+${tsAccountId}    TestAccountID
+${tsAccountName}    TestAccountName
+${tsAccountMail}    TestAccountMail@scrum.tw
+
+*** Keywords ***
+Test Project - Test Permission Denied Setup
+    Login Page    ${LOGIN_URL}
+    Wait Until Page Contains Element    createProjectBtn
+    SwitchToPage    ProjectList
+    ${_IsProjectIDExisted}=    Check ProjectID Is Existed    ${PROJECT_NAME}_A
+    Run Keyword If    "${_IsProjectIDExisted}"=="false"    Create Project with Arguments    ${PROJECT_NAME}_A    ${PROJECT_NAME}DisplayName_A    ${PROJECT_COMMENT}_A    ${PROJECT_MANAGER}_A
+    # Create Project With Arguments ${PROJECT_NAME}_A ${PROJECT_NAME}DisplayName_A ${PROJECT_COMMENT}_A ${PROJECT_MANAGER}_A
+    SwitchToPage    ProjectList
+    ${_IsProjectIDExisted}=    Check ProjectID Is Existed    ${PROJECT_NAME}_B
+    Run Keyword If    "${_IsProjectIDExisted}"=="false"    Create Project With Arguments    ${PROJECT_NAME}_B    ${PROJECT_NAME}DisplayName_B    ${PROJECT_COMMENT}_B    ${PROJECT_MANAGER}_B
+    # Create Project With Arguments ${PROJECT_NAME}_B ${PROJECT_NAME}DisplayName_B ${PROJECT_COMMENT}_B ${PROJECT_MANAGER}_B
+    SwitchToPage    Management
+    Clean Accounts
+    Add Account By Parameter    ${tsAccountId}    ${tsAccountName}    ${tsAccountMail}
+    Assign Role Add    ${tsAccountId}    ${PROJECT_NAME}_A    ScrumTeam
+    Exit ezScrum System
+
+Test Project - Test Permission Denied Teardown
+    Login Page    ${LOGIN_URL}
+    Wait Until Page Contains    ${PROJECT_NAME}DisplayName_A
+    Wait Until Page Contains    ${PROJECT_NAME}DisplayName_B
+    SwitchToPage    Management
+    Assign Role Remove    ${tsAccountId}    ${PROJECT_NAME}_A
+    Clean Accounts
+    Exit ezScrum System
+
+Test Project Teardown
+    Clean DB    ${DB_URL}    ${DB_ACCOUNT}    ${DB_PASSWORD}    ${DB_NAME}
+    Close All Browsers

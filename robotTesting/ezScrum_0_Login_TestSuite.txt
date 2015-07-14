@@ -1,0 +1,19 @@
+*** Settings ***
+Documentation     test ezScrumn page
+Force Tags        Login
+Resource          ServerConfig.txt
+Resource          Global Define.txt
+Resource          keywords/ezScrum_Login.txt
+Library           keywords/lib/Selenium2Improved.py
+
+*** Test Cases ***
+Test Login - ezScrum Identify Invalid Value
+    [Documentation]    測試所有使用者登入情況
+    Open Browser    ${LOGIN_URL}    ${BROWSER}
+    Login With Invalid Credentials Should Fail    invalid    admin    Invalid user name or password
+    Login With Invalid Credentials Should Fail    admin    invalid    Invalid user name or password
+    Login With Invalid Credentials Should Fail    invalid    whatever    Invalid user name or password
+    Login With Invalid Credentials Should Fail    ${EMPTY}    admin    User Name is required
+    Login With Invalid Credentials Should Fail    admin    ${EMPTY}    Password is required
+    Login With Invalid Credentials Should Fail    ${EMPTY}    ${EMPTY}    User Name is required\nPassword is required
+    Close Browser
