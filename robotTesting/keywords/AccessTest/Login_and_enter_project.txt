@@ -1,0 +1,9 @@
+*** Settings ***
+Resource          ../../ServerConfig.txt
+Resource          ../../Global Define.txt
+Resource          ../ezScrum_Login.txt
+
+*** Keywords ***
+Login and enter
+    Login Page    ${LOGIN_URL}
+    Select Project    TEST_DISPLAYNAME_1

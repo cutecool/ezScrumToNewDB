@@ -2,6 +2,29 @@
 Resource          ServerConfig.txt
 Resource          Global Define.txt
 Resource          keywords/ezScrum_Login.txt
+Resource          keywords/AccessTest/Login_and_enter_project.txt
 
 *** Test Cases ***
 Test Login to project summary page
+    : FOR    ${INDEX}    IN RANGE    1    11
+    \    ${time1}=    Get Time    epoch
+    \    Login Page    ${LOGIN_URL}
+    \    Select Project    TEST_DISPLAYNAME_1
+    \    Wait Until Element Is Visible    xpath=//span[text()="Product Backlog"]
+    \    ${time2}=    Get Time    epoch
+    \    ${ns}=    Create Dictionary    x=${time1}    y=${time2}
+    \    ${result}=    Evaluate    y-x    namespace=${ns}
+    \    log    ${result}
+    \    Close All Browsers
+
+Test view ProductBacklog list
+    :FOR    ${INDEX}    IN RANGE    1    11
+    \    ${time1}=    Get Time    epoch
+    \    Login and enter
+    \    Select Node Product    Product Backlog
+    \    Wait Until Element Is Visible    //span[@class="x-panel-header-text" and text()="Product Backlog"]
+    \    ${time2}=    Get Time    epoch
+    \    ${ns}=    Create Dictionary    x=${time1}    y=${time2}
+    \    ${result}=    Evaluate    y-x    namespace=${ns}
+    \    log    ${result}
+    \    Close All Browsers
