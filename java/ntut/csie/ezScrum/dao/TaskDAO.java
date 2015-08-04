@@ -4,8 +4,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import ntut.csie.ezScrum.issue.sql.service.core.Configuration;
 import ntut.csie.ezScrum.issue.sql.service.core.IQueryValueSet;
 import ntut.csie.ezScrum.issue.sql.service.internal.MySQLQuerySet;
+import ntut.csie.ezScrum.issue.sql.service.internal.PostgresSQLQuerySet;
+import ntut.csie.ezScrum.issue.sql.service.tool.internal.MySQLControl;
+import ntut.csie.ezScrum.issue.sql.service.tool.internal.PostgreSQLControl;
 import ntut.csie.ezScrum.web.dataObject.SerialNumberObject;
 import ntut.csie.ezScrum.web.dataObject.TaskObject;
 import ntut.csie.ezScrum.web.databasEnum.IssuePartnerRelationEnum;
@@ -13,7 +17,10 @@ import ntut.csie.ezScrum.web.databasEnum.IssueTypeEnum;
 import ntut.csie.ezScrum.web.databasEnum.SerialNumberEnum;
 import ntut.csie.ezScrum.web.databasEnum.TaskEnum;
 
-public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
+public class TaskDAO {
+	private Configuration mConfig = new Configuration();
+	private PostgreSQLControl mPSQLControl = new PostgreSQLControl(mConfig);
+	private MySQLControl mMySQLControl = new MySQLControl(mConfig);
 
 	private static TaskDAO sInstance = null;
 
@@ -23,10 +30,10 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		}
 		return sInstance;
 	}
-
-	@Override
+	
 	public long create(TaskObject task) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		long currentTime = System.currentTimeMillis();
 		SerialNumberObject serialNumber = SerialNumberDAO.getInstance().get(
 				task.getProjectId());
@@ -51,7 +58,7 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 			valueSet.addInsertValue(TaskEnum.UPDATE_TIME, currentTime);
 		}
 		String query = valueSet.getInsertQuery();
-		long id = mControl.executeInsert(query);
+		long id = mPSQLControl.executeInsert(query);
 
 		serialNumber.setId(SerialNumberEnum.TASK, serialNumber.getTaskId() + 1);
 		serialNumber.save();
@@ -59,14 +66,14 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		return id;
 	}
 
-	@Override
 	public TaskObject get(long id) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		valueSet.addTableName(TaskEnum.TABLE_NAME);
 		valueSet.addEqualCondition(TaskEnum.ID, id);
 		String query = valueSet.getSelectQuery();
 
-		ResultSet result = mControl.executeQuery(query);
+		ResultSet result = mPSQLControl.executeQuery(query);
 
 		TaskObject task = null;
 		try {
@@ -81,9 +88,9 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		return task;
 	}
 
-	@Override
 	public boolean update(TaskObject task) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		valueSet.addTableName(TaskEnum.TABLE_NAME);
 		valueSet.addInsertValue(TaskEnum.NAME, task.getName());
 		valueSet.addInsertValue(TaskEnum.HANDLER_ID, task.getHandlerId());
@@ -97,24 +104,25 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		valueSet.addEqualCondition(TaskEnum.ID, task.getId());
 		String query = valueSet.getUpdateQuery();
 
-		return mControl.executeUpdate(query);
+		return mPSQLControl.executeUpdate(query);
 	}
 
-	@Override
 	public boolean delete(long id) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		valueSet.addTableName(TaskEnum.TABLE_NAME);
 		valueSet.addEqualCondition(TaskEnum.ID, id);
 		String query = valueSet.getDeleteQuery();
-		return mControl.executeUpdate(query);
+		return mPSQLControl.executeUpdate(query);
 	}
 
 	public ArrayList<TaskObject> getTasksByStoryId(long storyId) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		valueSet.addTableName(TaskEnum.TABLE_NAME);
 		valueSet.addEqualCondition(TaskEnum.STORY_ID, storyId);
 		String query = valueSet.getSelectQuery();
-		ResultSet result = mControl.executeQuery(query);
+		ResultSet result = mPSQLControl.executeQuery(query);
 
 		ArrayList<TaskObject> tasks = new ArrayList<TaskObject>();
 		try {
@@ -136,12 +144,13 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 	 * @return All tasks which no parent in this project
 	 */
 	public ArrayList<TaskObject> getTasksWithNoParent(long projectId) {
-		IQueryValueSet valueSet = new MySQLQuerySet();
+		mPSQLControl.connect();
+		IQueryValueSet valueSet = new PostgresSQLQuerySet();
 		valueSet.addTableName(TaskEnum.TABLE_NAME);
 		valueSet.addEqualCondition(TaskEnum.STORY_ID, TaskObject.NO_PARENT);
 		valueSet.addEqualCondition(TaskEnum.PROJECT_ID, projectId);
 		String query = valueSet.getSelectQuery();
-		ResultSet result = mControl.executeQuery(query);
+		ResultSet result = mPSQLControl.executeQuery(query);
 
 		ArrayList<TaskObject> tasks = new ArrayList<TaskObject>();
 		try {
@@ -158,6 +167,8 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 	}
 
 	public ArrayList<Long> getPartnersId(long taskId) {
+		mMySQLControl.connect();
+
 		IQueryValueSet valueSet = new MySQLQuerySet();
 		valueSet.addTableName(IssuePartnerRelationEnum.TABLE_NAME);
 		valueSet.addEqualCondition(IssuePartnerRelationEnum.ISSUE_ID,
@@ -168,7 +179,7 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		String query = valueSet.getSelectQuery();
 
 		ArrayList<Long> partnersId = new ArrayList<Long>();
-		ResultSet result = mControl.executeQuery(query);
+		ResultSet result = mMySQLControl.executeQuery(query);
 		try {
 			while (result.next()) {
 				partnersId.add(result
@@ -183,6 +194,8 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 	}
 
 	public long addPartner(long taskId, long partnerId) {
+		mMySQLControl.connect();
+		
 		long id = -1;
 		if (!partnerExists(taskId, partnerId)) {
 			IQueryValueSet valueSet = new MySQLQuerySet();
@@ -193,23 +206,27 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 			valueSet.addInsertValue(IssuePartnerRelationEnum.ISSUE_TYPE,
 					IssueTypeEnum.TYPE_TASK);
 			String query = valueSet.getInsertQuery();
-			id = mControl.executeInsert(query);
+			id = mMySQLControl.executeInsert(query);
 		}
 
 		return id;
 	}
 	
 	public boolean removePartner(long taskId, long partnerId) {
+		mMySQLControl.connect();
+		
 		IQueryValueSet valueSet = new MySQLQuerySet();
 		valueSet.addTableName(IssuePartnerRelationEnum.TABLE_NAME);
 		valueSet.addEqualCondition(IssuePartnerRelationEnum.ISSUE_ID, taskId);
 		valueSet.addEqualCondition(IssuePartnerRelationEnum.ACCOUNT_ID, partnerId);
 		valueSet.addEqualCondition(IssuePartnerRelationEnum.ISSUE_TYPE, IssueTypeEnum.TYPE_TASK);
 		String query = valueSet.getDeleteQuery();
-		return mControl.executeUpdate(query);
+		return mMySQLControl.executeUpdate(query);
 	}
 
 	public boolean partnerExists(long taskId, long partnerId) {
+		mMySQLControl.connect();
+		
 		IQueryValueSet valueSet = new MySQLQuerySet();
 		valueSet.addTableName(IssuePartnerRelationEnum.TABLE_NAME);
 		valueSet.addEqualCondition(IssuePartnerRelationEnum.ISSUE_TYPE,
@@ -220,7 +237,7 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 		String query = valueSet.getSelectQuery();
 
 		int size = 0;
-		ResultSet result = mControl.executeQuery(query);
+		ResultSet result = mMySQLControl.executeQuery(query);
 		try {
 			while (result.next()) {
 				size++;
@@ -251,5 +268,15 @@ public class TaskDAO extends AbstractDAO<TaskObject, TaskObject> {
 				.setCreateTime(result.getLong(TaskEnum.CREATE_TIME))
 				.setUpdateTime(result.getLong(TaskEnum.UPDATE_TIME));
 		return task;
+	}
+	
+	private void closeResultSet(ResultSet result) {
+		if (result != null) {
+			try {
+				result.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}			
+		}
 	}
 }
