@@ -1,0 +1,7 @@
+*** Settings ***
+Resource          ServerConfig.txt
+Resource          Global Define.txt
+Resource          keywords/ezScrum_Login.txt
+
+*** Test Cases ***
+Test Login to project summary page
