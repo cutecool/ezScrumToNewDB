@@ -22,7 +22,7 @@ public class GetTopTitleInfoAction extends Action {
 	
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
-		
+		long time1 = System.currentTimeMillis();
 		ProjectObject project = SessionManager.getProjectObject(request);
 		IUserSession session = (IUserSession) request.getSession().getAttribute("UserSession");
 		AccountObject account = session.getAccount();
@@ -46,7 +46,8 @@ public class GetTopTitleInfoAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetTopTitleInfoAction:" + (time2 - time1));
 		return null;
 	}
 	

@@ -27,13 +27,15 @@ public class GetProjectLeftTreeItem extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
-		
+		long time1 = System.currentTimeMillis();
 		List<ParentSideUI> psuiList = new LinkedList<ParentSideUI>();
 		appendChildren(psuiList);
 		
 		Gson gson = new Gson();
-		
-		return new StringBuilder(gson.toJson(psuiList));
+		StringBuilder str = new StringBuilder(gson.toJson(psuiList));
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetProjectLeftTreeItem:" + (time2 - time1));
+		return str;
 	}
 	
 	private void appendChildren(List<ParentSideUI> list) {

@@ -21,6 +21,7 @@ public class AjaxGetSprintBacklogDateInfoAction extends Action {
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 	        HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Get Sprint Backlog Date.");
 
 		ProjectObject project = SessionManager.getProjectObject(request);
@@ -40,7 +41,8 @@ public class AjaxGetSprintBacklogDateInfoAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxGetSprintBacklogDateInfoAction:" + (time2 - time1));
 		return null;
 	}
 }

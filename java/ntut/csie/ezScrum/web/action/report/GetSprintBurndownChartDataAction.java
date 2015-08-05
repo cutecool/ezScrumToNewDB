@@ -21,7 +21,9 @@ import org.apache.struts.action.ActionMapping;
 public class GetSprintBurndownChartDataAction extends Action {
 	private static Log log = LogFactory.getLog(GetSprintBurndownChartDataAction.class);
 
-	public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) {
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Get Sprint Burndown Chart Data. In Project Summary Page.");
 
 		ProjectObject project = SessionManager.getProjectObject(request);
@@ -38,6 +40,9 @@ public class GetSprintBurndownChartDataAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetSprintBurndownChartDataAction " + type + ":"+ 
+		+ (time2 - time1));
 		return null;
 	}
 

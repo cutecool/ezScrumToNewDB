@@ -30,10 +30,14 @@ public class AjaxGetProjectDescriptionAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 	        HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Get Project Description. In Project Summary Page.");
 		ProjectObject project = (ProjectObject) SessionManager.getProjectObject(request);
 		ProjectUI pui = new ProjectUI(project);
-		return new StringBuilder((new Gson()).toJson(pui));
+		StringBuilder str = new StringBuilder((new Gson()).toJson(pui));
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxGetProjectDescriptionAction:" + (time2 - time1));
+		return str;
 	}
 
 	private class ProjectUI {

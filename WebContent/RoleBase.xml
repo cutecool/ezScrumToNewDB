@@ -1,37 +1,3019 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RoleBase>
   <Roles>
-    <Role id="admin" name="administrator">
+    <Role id="TEST_PROJECT_20_ProductOwner" name="TEST_PROJECT_20_ProductOwner">
       <Permissions>
-        <Permission name="system_admin" />
-        <Permission name="system_createProject" />
+        <Permission name="TEST_PROJECT_20_ProductOwner" />
       </Permissions>
     </Role>
-    <Role id="user" name="Default User">
+    <Role id="TEST_PROJECT_3_ScrumMaster" name="TEST_PROJECT_3_ScrumMaster">
       <Permissions>
-        <Permission name="system_read" />
+        <Permission name="TEST_PROJECT_3_ScrumMaster" />
       </Permissions>
     </Role>
-    <Role id="CreateProject" name="CreateProject">
+    <Role id="TEST_PROJECT_2_Stakeholder" name="TEST_PROJECT_2_Stakeholder">
       <Permissions>
-        <Permission name="system_createProject" />
+        <Permission name="TEST_PROJECT_2_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_92_Stakeholder" name="TEST_PROJECT_92_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_92_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_37_ScrumMaster" name="TEST_PROJECT_37_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_37_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_50_Guest" name="TEST_PROJECT_50_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_50_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_66_Stakeholder" name="TEST_PROJECT_66_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_66_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_43_Guest" name="TEST_PROJECT_43_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_43_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_47_Stakeholder" name="TEST_PROJECT_47_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_47_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_93_ProductOwner" name="TEST_PROJECT_93_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_93_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_86_ScrumTeam" name="TEST_PROJECT_86_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_86_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_31_Guest" name="TEST_PROJECT_31_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_31_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_43_Stakeholder" name="TEST_PROJECT_43_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_43_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_64_ScrumTeam" name="TEST_PROJECT_64_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_64_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_17_Guest" name="TEST_PROJECT_17_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_17_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_63_ScrumTeam" name="TEST_PROJECT_63_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_63_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_44_Stakeholder" name="TEST_PROJECT_44_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_44_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_27_Guest" name="TEST_PROJECT_27_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_27_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_84_ProductOwner" name="TEST_PROJECT_84_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_84_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_22_Guest" name="TEST_PROJECT_22_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_22_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_5_ProductOwner" name="TEST_PROJECT_5_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_5_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_38_ScrumTeam" name="TEST_PROJECT_38_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_38_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_78_ProductOwner" name="TEST_PROJECT_78_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_78_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_100_Stakeholder" name="TEST_PROJECT_100_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_100_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_62_ScrumTeam" name="TEST_PROJECT_62_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_62_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_61_ScrumMaster" name="TEST_PROJECT_61_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_61_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_50_ScrumTeam" name="TEST_PROJECT_50_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_50_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_52_Guest" name="TEST_PROJECT_52_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_52_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_89_ScrumMaster" name="TEST_PROJECT_89_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_89_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_10_ScrumMaster" name="TEST_PROJECT_10_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_10_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_16_ScrumMaster" name="TEST_PROJECT_16_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_16_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_14_Stakeholder" name="TEST_PROJECT_14_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_14_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_80_ScrumTeam" name="TEST_PROJECT_80_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_80_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_73_ScrumTeam" name="TEST_PROJECT_73_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_73_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_87_Stakeholder" name="TEST_PROJECT_87_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_87_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_15_ProductOwner" name="TEST_PROJECT_15_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_15_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_71_Stakeholder" name="TEST_PROJECT_71_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_71_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_12_ScrumTeam" name="TEST_PROJECT_12_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_12_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_78_Stakeholder" name="TEST_PROJECT_78_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_78_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_37_ProductOwner" name="TEST_PROJECT_37_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_37_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_41_ScrumMaster" name="TEST_PROJECT_41_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_41_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_20_ScrumMaster" name="TEST_PROJECT_20_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_20_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_66_ProductOwner" name="TEST_PROJECT_66_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_66_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_70_Stakeholder" name="TEST_PROJECT_70_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_70_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_88_Guest" name="TEST_PROJECT_88_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_88_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_65_ProductOwner" name="TEST_PROJECT_65_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_65_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_33_Stakeholder" name="TEST_PROJECT_33_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_33_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_2_ProductOwner" name="TEST_PROJECT_2_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_2_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_88_Stakeholder" name="TEST_PROJECT_88_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_88_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_80_ProductOwner" name="TEST_PROJECT_80_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_80_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_30_ProductOwner" name="TEST_PROJECT_30_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_30_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_48_ScrumMaster" name="TEST_PROJECT_48_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_48_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_52_ScrumTeam" name="TEST_PROJECT_52_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_52_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_64_ScrumMaster" name="TEST_PROJECT_64_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_64_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_91_ScrumTeam" name="TEST_PROJECT_91_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_91_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_54_Stakeholder" name="TEST_PROJECT_54_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_54_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_64_Stakeholder" name="TEST_PROJECT_64_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_64_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_91_Guest" name="TEST_PROJECT_91_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_91_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_1_ProductOwner" name="TEST_PROJECT_1_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_1_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_41_Guest" name="TEST_PROJECT_41_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_41_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_49_Guest" name="TEST_PROJECT_49_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_49_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_31_Stakeholder" name="TEST_PROJECT_31_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_31_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_7_ScrumTeam" name="TEST_PROJECT_7_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_7_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_47_ScrumTeam" name="TEST_PROJECT_47_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_47_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_14_ScrumMaster" name="TEST_PROJECT_14_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_14_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_61_Guest" name="TEST_PROJECT_61_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_61_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_53_Guest" name="TEST_PROJECT_53_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_53_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_61_ProductOwner" name="TEST_PROJECT_61_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_61_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_11_Guest" name="TEST_PROJECT_11_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_11_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_59_ScrumMaster" name="TEST_PROJECT_59_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_59_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_98_Stakeholder" name="TEST_PROJECT_98_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_98_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_56_ScrumMaster" name="TEST_PROJECT_56_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_56_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_46_ProductOwner" name="TEST_PROJECT_46_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_46_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_12_Stakeholder" name="TEST_PROJECT_12_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_12_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_79_ProductOwner" name="TEST_PROJECT_79_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_79_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_28_ScrumTeam" name="TEST_PROJECT_28_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_28_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_11_Stakeholder" name="TEST_PROJECT_11_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_11_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_17_ScrumTeam" name="TEST_PROJECT_17_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_17_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_74_ScrumTeam" name="TEST_PROJECT_74_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_74_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_33_ScrumTeam" name="TEST_PROJECT_33_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_33_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_41_ProductOwner" name="TEST_PROJECT_41_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_41_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_81_Stakeholder" name="TEST_PROJECT_81_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_81_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_87_Guest" name="TEST_PROJECT_87_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_87_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_15_Stakeholder" name="TEST_PROJECT_15_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_15_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_9_Guest" name="TEST_PROJECT_9_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_9_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_97_ScrumTeam" name="TEST_PROJECT_97_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_97_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_97_ScrumMaster" name="TEST_PROJECT_97_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_97_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_34_Stakeholder" name="TEST_PROJECT_34_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_34_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_40_ProductOwner" name="TEST_PROJECT_40_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_40_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_96_ScrumTeam" name="TEST_PROJECT_96_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_96_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_74_ProductOwner" name="TEST_PROJECT_74_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_74_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_6_ProductOwner" name="TEST_PROJECT_6_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_6_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_23_ScrumMaster" name="TEST_PROJECT_23_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_23_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_59_Stakeholder" name="TEST_PROJECT_59_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_59_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_48_Stakeholder" name="TEST_PROJECT_48_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_48_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_100_Guest" name="TEST_PROJECT_100_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_100_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_27_ScrumMaster" name="TEST_PROJECT_27_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_27_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_14_ProductOwner" name="TEST_PROJECT_14_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_14_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_56_Guest" name="TEST_PROJECT_56_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_56_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_63_ScrumMaster" name="TEST_PROJECT_63_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_63_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_14_Guest" name="TEST_PROJECT_14_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_14_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_69_ProductOwner" name="TEST_PROJECT_69_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_69_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_8_ScrumMaster" name="TEST_PROJECT_8_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_8_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_37_Stakeholder" name="TEST_PROJECT_37_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_37_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_7_Stakeholder" name="TEST_PROJECT_7_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_7_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_6_ScrumMaster" name="TEST_PROJECT_6_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_6_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_13_ProductOwner" name="TEST_PROJECT_13_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_13_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_1_Guest" name="TEST_PROJECT_1_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_1_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_77_Stakeholder" name="TEST_PROJECT_77_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_77_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_19_ScrumTeam" name="TEST_PROJECT_19_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_19_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_38_ProductOwner" name="TEST_PROJECT_38_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_38_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_76_ScrumTeam" name="TEST_PROJECT_76_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_76_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_52_Stakeholder" name="TEST_PROJECT_52_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_52_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_58_ScrumTeam" name="TEST_PROJECT_58_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_58_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_26_Stakeholder" name="TEST_PROJECT_26_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_26_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_35_Guest" name="TEST_PROJECT_35_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_35_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_11_ScrumMaster" name="TEST_PROJECT_11_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_11_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_20_ScrumTeam" name="TEST_PROJECT_20_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_20_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_36_ScrumMaster" name="TEST_PROJECT_36_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_36_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_98_ScrumTeam" name="TEST_PROJECT_98_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_98_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_94_Guest" name="TEST_PROJECT_94_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_94_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_2_Guest" name="TEST_PROJECT_2_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_2_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_15_ScrumTeam" name="TEST_PROJECT_15_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_15_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_13_ScrumTeam" name="TEST_PROJECT_13_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_13_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_65_ScrumMaster" name="TEST_PROJECT_65_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_65_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_25_Stakeholder" name="TEST_PROJECT_25_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_25_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_86_ScrumMaster" name="TEST_PROJECT_86_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_86_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_58_Guest" name="TEST_PROJECT_58_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_58_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_23_ScrumTeam" name="TEST_PROJECT_23_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_23_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_40_ScrumTeam" name="TEST_PROJECT_40_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_40_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_19_Guest" name="TEST_PROJECT_19_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_19_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_62_ProductOwner" name="TEST_PROJECT_62_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_62_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_25_ScrumTeam" name="TEST_PROJECT_25_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_25_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_75_ScrumTeam" name="TEST_PROJECT_75_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_75_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_100_ScrumMaster" name="TEST_PROJECT_100_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_100_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_30_Guest" name="TEST_PROJECT_30_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_30_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_74_Guest" name="TEST_PROJECT_74_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_74_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_97_Guest" name="TEST_PROJECT_97_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_97_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_63_ProductOwner" name="TEST_PROJECT_63_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_63_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_18_ScrumTeam" name="TEST_PROJECT_18_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_18_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_46_ScrumMaster" name="TEST_PROJECT_46_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_46_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_90_Guest" name="TEST_PROJECT_90_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_90_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_71_ProductOwner" name="TEST_PROJECT_71_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_71_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_12_ScrumMaster" name="TEST_PROJECT_12_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_12_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_26_ProductOwner" name="TEST_PROJECT_26_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_26_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_4_ProductOwner" name="TEST_PROJECT_4_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_4_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_62_ScrumMaster" name="TEST_PROJECT_62_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_62_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_84_ScrumMaster" name="TEST_PROJECT_84_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_84_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_51_ProductOwner" name="TEST_PROJECT_51_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_51_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_73_ScrumMaster" name="TEST_PROJECT_73_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_73_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_2_ScrumTeam" name="TEST_PROJECT_2_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_2_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_55_ScrumTeam" name="TEST_PROJECT_55_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_55_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_57_ScrumMaster" name="TEST_PROJECT_57_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_57_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_99_ProductOwner" name="TEST_PROJECT_99_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_99_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_39_ScrumTeam" name="TEST_PROJECT_39_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_39_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_44_ScrumMaster" name="TEST_PROJECT_44_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_44_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_18_ProductOwner" name="TEST_PROJECT_18_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_18_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_80_Stakeholder" name="TEST_PROJECT_80_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_80_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_53_ScrumMaster" name="TEST_PROJECT_53_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_53_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_36_ProductOwner" name="TEST_PROJECT_36_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_36_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_88_ScrumMaster" name="TEST_PROJECT_88_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_88_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_50_Stakeholder" name="TEST_PROJECT_50_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_50_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_51_Stakeholder" name="TEST_PROJECT_51_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_51_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_93_ScrumMaster" name="TEST_PROJECT_93_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_93_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_29_ScrumTeam" name="TEST_PROJECT_29_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_29_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_35_ProductOwner" name="TEST_PROJECT_35_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_35_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_72_ScrumTeam" name="TEST_PROJECT_72_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_72_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_24_Stakeholder" name="TEST_PROJECT_24_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_24_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_76_Stakeholder" name="TEST_PROJECT_76_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_76_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_31_ProductOwner" name="TEST_PROJECT_31_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_31_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_84_Guest" name="TEST_PROJECT_84_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_84_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_92_ScrumMaster" name="TEST_PROJECT_92_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_92_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_9_Stakeholder" name="TEST_PROJECT_9_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_9_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_21_ScrumMaster" name="TEST_PROJECT_21_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_21_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_70_ScrumMaster" name="TEST_PROJECT_70_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_70_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_21_ScrumTeam" name="TEST_PROJECT_21_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_21_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_28_Guest" name="TEST_PROJECT_28_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_28_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_18_ScrumMaster" name="TEST_PROJECT_18_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_18_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_73_ProductOwner" name="TEST_PROJECT_73_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_73_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_75_Guest" name="TEST_PROJECT_75_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_75_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_53_ProductOwner" name="TEST_PROJECT_53_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_53_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_57_Guest" name="TEST_PROJECT_57_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_57_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_14_ScrumTeam" name="TEST_PROJECT_14_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_14_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_16_ScrumTeam" name="TEST_PROJECT_16_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_16_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_93_Stakeholder" name="TEST_PROJECT_93_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_93_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_12_ProductOwner" name="TEST_PROJECT_12_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_12_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_68_Stakeholder" name="TEST_PROJECT_68_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_68_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_72_ProductOwner" name="TEST_PROJECT_72_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_72_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_6_Guest" name="TEST_PROJECT_6_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_6_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_99_Stakeholder" name="TEST_PROJECT_99_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_99_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_5_ScrumMaster" name="TEST_PROJECT_5_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_5_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_8_Guest" name="TEST_PROJECT_8_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_8_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_62_Guest" name="TEST_PROJECT_62_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_62_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_100_ScrumTeam" name="TEST_PROJECT_100_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_100_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_83_ScrumMaster" name="TEST_PROJECT_83_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_83_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_22_Stakeholder" name="TEST_PROJECT_22_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_22_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_29_ScrumMaster" name="TEST_PROJECT_29_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_29_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_36_Guest" name="TEST_PROJECT_36_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_36_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_32_Guest" name="TEST_PROJECT_32_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_32_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_61_Stakeholder" name="TEST_PROJECT_61_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_61_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_45_ScrumTeam" name="TEST_PROJECT_45_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_45_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_67_Stakeholder" name="TEST_PROJECT_67_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_67_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_91_ProductOwner" name="TEST_PROJECT_91_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_91_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_3_Guest" name="TEST_PROJECT_3_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_3_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_93_Guest" name="TEST_PROJECT_93_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_93_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_61_ScrumTeam" name="TEST_PROJECT_61_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_61_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_35_Stakeholder" name="TEST_PROJECT_35_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_35_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_97_ProductOwner" name="TEST_PROJECT_97_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_97_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_1_ScrumMaster" name="TEST_PROJECT_1_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_1_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_83_Guest" name="TEST_PROJECT_83_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_83_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_100_ProductOwner" name="TEST_PROJECT_100_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_100_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_45_Stakeholder" name="TEST_PROJECT_45_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_45_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_60_ScrumTeam" name="TEST_PROJECT_60_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_60_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_69_Guest" name="TEST_PROJECT_69_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_69_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_84_ScrumTeam" name="TEST_PROJECT_84_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_84_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_89_Stakeholder" name="TEST_PROJECT_89_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_89_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_23_Stakeholder" name="TEST_PROJECT_23_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_23_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_94_ScrumMaster" name="TEST_PROJECT_94_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_94_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_32_ScrumMaster" name="TEST_PROJECT_32_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_32_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_57_ScrumTeam" name="TEST_PROJECT_57_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_57_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_29_Stakeholder" name="TEST_PROJECT_29_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_29_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_34_ScrumTeam" name="TEST_PROJECT_34_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_34_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_25_ProductOwner" name="TEST_PROJECT_25_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_25_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_49_Stakeholder" name="TEST_PROJECT_49_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_49_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_51_Guest" name="TEST_PROJECT_51_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_51_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_59_ProductOwner" name="TEST_PROJECT_59_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_59_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_49_ScrumTeam" name="TEST_PROJECT_49_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_49_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_98_ProductOwner" name="TEST_PROJECT_98_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_98_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_4_Guest" name="TEST_PROJECT_4_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_4_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_67_Guest" name="TEST_PROJECT_67_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_67_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_28_Stakeholder" name="TEST_PROJECT_28_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_28_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_87_ProductOwner" name="TEST_PROJECT_87_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_87_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_16_Stakeholder" name="TEST_PROJECT_16_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_16_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_17_ScrumMaster" name="TEST_PROJECT_17_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_17_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_39_Stakeholder" name="TEST_PROJECT_39_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_39_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_4_ScrumMaster" name="TEST_PROJECT_4_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_4_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_82_ScrumTeam" name="TEST_PROJECT_82_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_82_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_55_Guest" name="TEST_PROJECT_55_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_55_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_66_ScrumMaster" name="TEST_PROJECT_66_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_66_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_69_ScrumTeam" name="TEST_PROJECT_69_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_69_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_74_Stakeholder" name="TEST_PROJECT_74_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_74_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_47_ScrumMaster" name="TEST_PROJECT_47_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_47_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_96_Guest" name="TEST_PROJECT_96_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_96_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_34_ProductOwner" name="TEST_PROJECT_34_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_34_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_9_ScrumMaster" name="TEST_PROJECT_9_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_9_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_82_Stakeholder" name="TEST_PROJECT_82_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_82_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_7_Guest" name="TEST_PROJECT_7_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_7_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_90_Stakeholder" name="TEST_PROJECT_90_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_90_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_56_Stakeholder" name="TEST_PROJECT_56_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_56_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_54_ScrumMaster" name="TEST_PROJECT_54_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_54_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_98_Guest" name="TEST_PROJECT_98_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_98_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_88_ProductOwner" name="TEST_PROJECT_88_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_88_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_38_Stakeholder" name="TEST_PROJECT_38_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_38_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_33_Guest" name="TEST_PROJECT_33_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_33_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_23_Guest" name="TEST_PROJECT_23_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_23_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_90_ScrumTeam" name="TEST_PROJECT_90_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_90_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_95_ScrumMaster" name="TEST_PROJECT_95_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_95_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_30_Stakeholder" name="TEST_PROJECT_30_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_30_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_22_ScrumTeam" name="TEST_PROJECT_22_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_22_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_36_ScrumTeam" name="TEST_PROJECT_36_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_36_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_63_Guest" name="TEST_PROJECT_63_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_63_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_59_ScrumTeam" name="TEST_PROJECT_59_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_59_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_3_ProductOwner" name="TEST_PROJECT_3_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_3_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_64_ProductOwner" name="TEST_PROJECT_64_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_64_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_1_ScrumTeam" name="TEST_PROJECT_1_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_1_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_47_ProductOwner" name="TEST_PROJECT_47_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_47_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_79_Guest" name="TEST_PROJECT_79_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_79_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_95_Guest" name="TEST_PROJECT_95_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_95_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_88_ScrumTeam" name="TEST_PROJECT_88_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_88_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_50_ScrumMaster" name="TEST_PROJECT_50_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_50_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_59_Guest" name="TEST_PROJECT_59_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_59_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_90_ProductOwner" name="TEST_PROJECT_90_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_90_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_7_ScrumMaster" name="TEST_PROJECT_7_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_7_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_96_Stakeholder" name="TEST_PROJECT_96_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_96_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_4_Stakeholder" name="TEST_PROJECT_4_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_4_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_24_ScrumTeam" name="TEST_PROJECT_24_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_24_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_32_Stakeholder" name="TEST_PROJECT_32_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_32_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_45_Guest" name="TEST_PROJECT_45_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_45_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_48_Guest" name="TEST_PROJECT_48_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_48_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_46_Guest" name="TEST_PROJECT_46_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_46_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_98_ScrumMaster" name="TEST_PROJECT_98_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_98_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_78_ScrumMaster" name="TEST_PROJECT_78_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_78_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_39_ScrumMaster" name="TEST_PROJECT_39_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_39_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_44_ScrumTeam" name="TEST_PROJECT_44_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_44_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_58_Stakeholder" name="TEST_PROJECT_58_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_58_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_56_ScrumTeam" name="TEST_PROJECT_56_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_56_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_37_Guest" name="TEST_PROJECT_37_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_37_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_19_ScrumMaster" name="TEST_PROJECT_19_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_19_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_48_ProductOwner" name="TEST_PROJECT_48_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_48_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_89_ScrumTeam" name="TEST_PROJECT_89_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_89_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_15_Guest" name="TEST_PROJECT_15_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_15_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_43_ProductOwner" name="TEST_PROJECT_43_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_43_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_15_ScrumMaster" name="TEST_PROJECT_15_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_15_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_80_Guest" name="TEST_PROJECT_80_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_80_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_65_Guest" name="TEST_PROJECT_65_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_65_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_40_Stakeholder" name="TEST_PROJECT_40_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_40_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_20_Guest" name="TEST_PROJECT_20_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_20_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_83_ScrumTeam" name="TEST_PROJECT_83_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_83_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_21_Guest" name="TEST_PROJECT_21_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_21_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_19_Stakeholder" name="TEST_PROJECT_19_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_19_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_94_ProductOwner" name="TEST_PROJECT_94_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_94_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_20_Stakeholder" name="TEST_PROJECT_20_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_20_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_68_ScrumMaster" name="TEST_PROJECT_68_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_68_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_68_Guest" name="TEST_PROJECT_68_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_68_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_85_ProductOwner" name="TEST_PROJECT_85_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_85_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_87_ScrumMaster" name="TEST_PROJECT_87_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_87_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_43_ScrumMaster" name="TEST_PROJECT_43_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_43_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_6_ScrumTeam" name="TEST_PROJECT_6_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_6_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_4_ScrumTeam" name="TEST_PROJECT_4_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_4_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_10_ProductOwner" name="TEST_PROJECT_10_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_10_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_40_ScrumMaster" name="TEST_PROJECT_40_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_40_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_34_ScrumMaster" name="TEST_PROJECT_34_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_34_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_5_Stakeholder" name="TEST_PROJECT_5_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_5_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_58_ProductOwner" name="TEST_PROJECT_58_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_58_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_11_ScrumTeam" name="TEST_PROJECT_11_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_11_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_52_ProductOwner" name="TEST_PROJECT_52_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_52_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_18_Guest" name="TEST_PROJECT_18_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_18_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_81_ProductOwner" name="TEST_PROJECT_81_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_81_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_44_Guest" name="TEST_PROJECT_44_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_44_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="admin" name="admin">
+      <Permissions />
+    </Role>
+    <Role id="TEST_PROJECT_67_ScrumMaster" name="TEST_PROJECT_67_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_67_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_75_ScrumMaster" name="TEST_PROJECT_75_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_75_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_25_Guest" name="TEST_PROJECT_25_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_25_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_82_ProductOwner" name="TEST_PROJECT_82_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_82_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_13_Guest" name="TEST_PROJECT_13_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_13_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_44_ProductOwner" name="TEST_PROJECT_44_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_44_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_26_Guest" name="TEST_PROJECT_26_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_26_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_10_ScrumTeam" name="TEST_PROJECT_10_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_10_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_10_Guest" name="TEST_PROJECT_10_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_10_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_68_ScrumTeam" name="TEST_PROJECT_68_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_68_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_41_ScrumTeam" name="TEST_PROJECT_41_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_41_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_43_ScrumTeam" name="TEST_PROJECT_43_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_43_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_90_ScrumMaster" name="TEST_PROJECT_90_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_90_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_11_ProductOwner" name="TEST_PROJECT_11_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_11_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_16_Guest" name="TEST_PROJECT_16_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_16_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_65_Stakeholder" name="TEST_PROJECT_65_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_65_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_86_Stakeholder" name="TEST_PROJECT_86_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_86_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_42_Stakeholder" name="TEST_PROJECT_42_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_42_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_25_ScrumMaster" name="TEST_PROJECT_25_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_25_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_32_ProductOwner" name="TEST_PROJECT_32_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_32_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_30_ScrumMaster" name="TEST_PROJECT_30_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_30_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_63_Stakeholder" name="TEST_PROJECT_63_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_63_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_68_ProductOwner" name="TEST_PROJECT_68_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_68_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_3_ScrumTeam" name="TEST_PROJECT_3_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_3_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_89_ProductOwner" name="TEST_PROJECT_89_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_89_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_22_ScrumMaster" name="TEST_PROJECT_22_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_22_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_85_ScrumMaster" name="TEST_PROJECT_85_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_85_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_96_ProductOwner" name="TEST_PROJECT_96_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_96_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_38_ScrumMaster" name="TEST_PROJECT_38_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_38_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_50_ProductOwner" name="TEST_PROJECT_50_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_50_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_12_Guest" name="TEST_PROJECT_12_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_12_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_48_ScrumTeam" name="TEST_PROJECT_48_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_48_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_84_Stakeholder" name="TEST_PROJECT_84_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_84_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_8_Stakeholder" name="TEST_PROJECT_8_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_8_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_85_ScrumTeam" name="TEST_PROJECT_85_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_85_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_75_Stakeholder" name="TEST_PROJECT_75_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_75_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_69_ScrumMaster" name="TEST_PROJECT_69_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_69_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_57_Stakeholder" name="TEST_PROJECT_57_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_57_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_40_Guest" name="TEST_PROJECT_40_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_40_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_89_Guest" name="TEST_PROJECT_89_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_89_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_77_ScrumTeam" name="TEST_PROJECT_77_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_77_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_27_Stakeholder" name="TEST_PROJECT_27_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_27_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_18_Stakeholder" name="TEST_PROJECT_18_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_18_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_5_Guest" name="TEST_PROJECT_5_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_5_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_51_ScrumMaster" name="TEST_PROJECT_51_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_51_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_60_ScrumMaster" name="TEST_PROJECT_60_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_60_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_54_ScrumTeam" name="TEST_PROJECT_54_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_54_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_33_ProductOwner" name="TEST_PROJECT_33_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_33_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_58_ScrumMaster" name="TEST_PROJECT_58_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_58_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_2_ScrumMaster" name="TEST_PROJECT_2_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_2_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_39_Guest" name="TEST_PROJECT_39_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_39_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_91_ScrumMaster" name="TEST_PROJECT_91_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_91_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_28_ScrumMaster" name="TEST_PROJECT_28_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_28_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_62_Stakeholder" name="TEST_PROJECT_62_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_62_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_82_ScrumMaster" name="TEST_PROJECT_82_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_82_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_35_ScrumTeam" name="TEST_PROJECT_35_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_35_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_67_ScrumTeam" name="TEST_PROJECT_67_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_67_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_41_Stakeholder" name="TEST_PROJECT_41_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_41_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_8_ScrumTeam" name="TEST_PROJECT_8_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_8_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_16_ProductOwner" name="TEST_PROJECT_16_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_16_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_95_ScrumTeam" name="TEST_PROJECT_95_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_95_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_31_ScrumTeam" name="TEST_PROJECT_31_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_31_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_1_Stakeholder" name="TEST_PROJECT_1_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_1_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_85_Guest" name="TEST_PROJECT_85_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_85_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_79_ScrumMaster" name="TEST_PROJECT_79_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_79_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_71_ScrumTeam" name="TEST_PROJECT_71_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_71_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_72_Guest" name="TEST_PROJECT_72_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_72_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_60_ProductOwner" name="TEST_PROJECT_60_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_60_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_5_ScrumTeam" name="TEST_PROJECT_5_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_5_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_55_ScrumMaster" name="TEST_PROJECT_55_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_55_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_26_ScrumTeam" name="TEST_PROJECT_26_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_26_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_34_Guest" name="TEST_PROJECT_34_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_34_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_29_Guest" name="TEST_PROJECT_29_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_29_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_91_Stakeholder" name="TEST_PROJECT_91_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_91_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_83_ProductOwner" name="TEST_PROJECT_83_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_83_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_56_ProductOwner" name="TEST_PROJECT_56_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_56_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_35_ScrumMaster" name="TEST_PROJECT_35_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_35_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_29_ProductOwner" name="TEST_PROJECT_29_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_29_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_23_ProductOwner" name="TEST_PROJECT_23_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_23_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_73_Guest" name="TEST_PROJECT_73_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_73_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_92_ProductOwner" name="TEST_PROJECT_92_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_92_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_86_ProductOwner" name="TEST_PROJECT_86_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_86_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_45_ScrumMaster" name="TEST_PROJECT_45_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_45_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_75_ProductOwner" name="TEST_PROJECT_75_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_75_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_76_Guest" name="TEST_PROJECT_76_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_76_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_70_ProductOwner" name="TEST_PROJECT_70_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_70_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_70_ScrumTeam" name="TEST_PROJECT_70_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_70_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_42_ProductOwner" name="TEST_PROJECT_42_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_42_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_24_ScrumMaster" name="TEST_PROJECT_24_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_24_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_74_ScrumMaster" name="TEST_PROJECT_74_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_74_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_73_Stakeholder" name="TEST_PROJECT_73_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_73_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_69_Stakeholder" name="TEST_PROJECT_69_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_69_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_76_ScrumMaster" name="TEST_PROJECT_76_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_76_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_85_Stakeholder" name="TEST_PROJECT_85_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_85_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_49_ProductOwner" name="TEST_PROJECT_49_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_49_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_80_ScrumMaster" name="TEST_PROJECT_80_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_80_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_94_ScrumTeam" name="TEST_PROJECT_94_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_94_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_13_Stakeholder" name="TEST_PROJECT_13_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_13_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_7_ProductOwner" name="TEST_PROJECT_7_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_7_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_46_Stakeholder" name="TEST_PROJECT_46_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_46_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_60_Guest" name="TEST_PROJECT_60_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_60_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_24_ProductOwner" name="TEST_PROJECT_24_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_24_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_47_Guest" name="TEST_PROJECT_47_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_47_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_77_Guest" name="TEST_PROJECT_77_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_77_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_71_Guest" name="TEST_PROJECT_71_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_71_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_19_ProductOwner" name="TEST_PROJECT_19_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_19_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_49_ScrumMaster" name="TEST_PROJECT_49_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_49_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_86_Guest" name="TEST_PROJECT_86_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_86_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_71_ScrumMaster" name="TEST_PROJECT_71_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_71_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_45_ProductOwner" name="TEST_PROJECT_45_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_45_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_67_ProductOwner" name="TEST_PROJECT_67_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_67_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_97_Stakeholder" name="TEST_PROJECT_97_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_97_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_79_ScrumTeam" name="TEST_PROJECT_79_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_79_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_42_Guest" name="TEST_PROJECT_42_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_42_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_57_ProductOwner" name="TEST_PROJECT_57_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_57_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_78_ScrumTeam" name="TEST_PROJECT_78_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_78_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_37_ScrumTeam" name="TEST_PROJECT_37_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_37_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_66_ScrumTeam" name="TEST_PROJECT_66_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_66_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_60_Stakeholder" name="TEST_PROJECT_60_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_60_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_9_ScrumTeam" name="TEST_PROJECT_9_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_9_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_42_ScrumMaster" name="TEST_PROJECT_42_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_42_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_33_ScrumMaster" name="TEST_PROJECT_33_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_33_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_81_ScrumMaster" name="TEST_PROJECT_81_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_81_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_77_ScrumMaster" name="TEST_PROJECT_77_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_77_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_94_Stakeholder" name="TEST_PROJECT_94_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_94_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_3_Stakeholder" name="TEST_PROJECT_3_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_3_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_65_ScrumTeam" name="TEST_PROJECT_65_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_65_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_54_Guest" name="TEST_PROJECT_54_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_54_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_54_ProductOwner" name="TEST_PROJECT_54_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_54_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_81_ScrumTeam" name="TEST_PROJECT_81_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_81_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_42_ScrumTeam" name="TEST_PROJECT_42_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_42_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_95_ProductOwner" name="TEST_PROJECT_95_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_95_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_99_ScrumTeam" name="TEST_PROJECT_99_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_99_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_92_Guest" name="TEST_PROJECT_92_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_92_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_77_ProductOwner" name="TEST_PROJECT_77_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_77_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_95_Stakeholder" name="TEST_PROJECT_95_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_95_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_13_ScrumMaster" name="TEST_PROJECT_13_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_13_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_53_Stakeholder" name="TEST_PROJECT_53_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_53_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_30_ScrumTeam" name="TEST_PROJECT_30_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_30_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_81_Guest" name="TEST_PROJECT_81_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_81_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_55_Stakeholder" name="TEST_PROJECT_55_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_55_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_27_ScrumTeam" name="TEST_PROJECT_27_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_27_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_72_Stakeholder" name="TEST_PROJECT_72_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_72_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_83_Stakeholder" name="TEST_PROJECT_83_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_83_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_79_Stakeholder" name="TEST_PROJECT_79_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_79_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_32_ScrumTeam" name="TEST_PROJECT_32_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_32_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_22_ProductOwner" name="TEST_PROJECT_22_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_22_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_17_Stakeholder" name="TEST_PROJECT_17_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_17_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_38_Guest" name="TEST_PROJECT_38_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_38_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_31_ScrumMaster" name="TEST_PROJECT_31_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_31_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_17_ProductOwner" name="TEST_PROJECT_17_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_17_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_9_ProductOwner" name="TEST_PROJECT_9_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_9_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_6_Stakeholder" name="TEST_PROJECT_6_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_6_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_51_ScrumTeam" name="TEST_PROJECT_51_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_51_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_52_ScrumMaster" name="TEST_PROJECT_52_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_52_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_70_Guest" name="TEST_PROJECT_70_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_70_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_78_Guest" name="TEST_PROJECT_78_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_78_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_96_ScrumMaster" name="TEST_PROJECT_96_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_96_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_72_ScrumMaster" name="TEST_PROJECT_72_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_72_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_21_ProductOwner" name="TEST_PROJECT_21_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_21_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_92_ScrumTeam" name="TEST_PROJECT_92_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_92_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_87_ScrumTeam" name="TEST_PROJECT_87_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_87_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_99_Guest" name="TEST_PROJECT_99_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_99_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_64_Guest" name="TEST_PROJECT_64_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_64_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_66_Guest" name="TEST_PROJECT_66_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_66_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_39_ProductOwner" name="TEST_PROJECT_39_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_39_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_24_Guest" name="TEST_PROJECT_24_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_24_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_55_ProductOwner" name="TEST_PROJECT_55_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_55_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_8_ProductOwner" name="TEST_PROJECT_8_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_8_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_76_ProductOwner" name="TEST_PROJECT_76_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_76_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_93_ScrumTeam" name="TEST_PROJECT_93_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_93_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_53_ScrumTeam" name="TEST_PROJECT_53_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_53_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_27_ProductOwner" name="TEST_PROJECT_27_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_27_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_82_Guest" name="TEST_PROJECT_82_Guest">
+      <Permissions>
+        <Permission name="TEST_PROJECT_82_Guest" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_46_ScrumTeam" name="TEST_PROJECT_46_ScrumTeam">
+      <Permissions>
+        <Permission name="TEST_PROJECT_46_ScrumTeam" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_99_ScrumMaster" name="TEST_PROJECT_99_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_99_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_26_ScrumMaster" name="TEST_PROJECT_26_ScrumMaster">
+      <Permissions>
+        <Permission name="TEST_PROJECT_26_ScrumMaster" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_28_ProductOwner" name="TEST_PROJECT_28_ProductOwner">
+      <Permissions>
+        <Permission name="TEST_PROJECT_28_ProductOwner" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_10_Stakeholder" name="TEST_PROJECT_10_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_10_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="TEST_PROJECT_21_Stakeholder" name="TEST_PROJECT_21_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_21_Stakeholder" />
+      </Permissions>
+    </Role>
+    <Role id="user" name="user">
+      <Permissions />
+    </Role>
+    <Role id="TEST_PROJECT_36_Stakeholder" name="TEST_PROJECT_36_Stakeholder">
+      <Permissions>
+        <Permission name="TEST_PROJECT_36_Stakeholder" />
       </Permissions>
     </Role>
   </Roles>
   <Permissions>
-    <Permission name="system_admin" operation="admin" resourceName="system" />
-    <Permission name="system_read" operation="read" resourceName="system" />
-    <Permission name="system_createProject" operation="createProject" resourceName="system" />
+    <Permission name="TEST_PROJECT_20_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_20" />
+    <Permission name="TEST_PROJECT_3_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_3" />
+    <Permission name="TEST_PROJECT_2_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_2" />
+    <Permission name="TEST_PROJECT_92_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_92" />
+    <Permission name="TEST_PROJECT_37_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_37" />
+    <Permission name="TEST_PROJECT_50_Guest" operation="Guest" resourceName="TEST_PROJECT_50" />
+    <Permission name="TEST_PROJECT_66_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_66" />
+    <Permission name="TEST_PROJECT_43_Guest" operation="Guest" resourceName="TEST_PROJECT_43" />
+    <Permission name="TEST_PROJECT_47_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_47" />
+    <Permission name="TEST_PROJECT_93_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_93" />
+    <Permission name="TEST_PROJECT_86_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_86" />
+    <Permission name="TEST_PROJECT_31_Guest" operation="Guest" resourceName="TEST_PROJECT_31" />
+    <Permission name="TEST_PROJECT_43_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_43" />
+    <Permission name="TEST_PROJECT_64_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_64" />
+    <Permission name="TEST_PROJECT_17_Guest" operation="Guest" resourceName="TEST_PROJECT_17" />
+    <Permission name="TEST_PROJECT_63_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_63" />
+    <Permission name="TEST_PROJECT_44_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_44" />
+    <Permission name="TEST_PROJECT_27_Guest" operation="Guest" resourceName="TEST_PROJECT_27" />
+    <Permission name="TEST_PROJECT_84_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_84" />
+    <Permission name="TEST_PROJECT_22_Guest" operation="Guest" resourceName="TEST_PROJECT_22" />
+    <Permission name="TEST_PROJECT_5_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_5" />
+    <Permission name="TEST_PROJECT_38_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_38" />
+    <Permission name="TEST_PROJECT_78_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_78" />
+    <Permission name="TEST_PROJECT_100_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_100" />
+    <Permission name="TEST_PROJECT_62_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_62" />
+    <Permission name="TEST_PROJECT_61_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_61" />
+    <Permission name="TEST_PROJECT_50_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_50" />
+    <Permission name="TEST_PROJECT_52_Guest" operation="Guest" resourceName="TEST_PROJECT_52" />
+    <Permission name="TEST_PROJECT_89_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_89" />
+    <Permission name="TEST_PROJECT_10_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_10" />
+    <Permission name="TEST_PROJECT_16_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_16" />
+    <Permission name="TEST_PROJECT_14_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_14" />
+    <Permission name="TEST_PROJECT_80_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_80" />
+    <Permission name="TEST_PROJECT_73_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_73" />
+    <Permission name="TEST_PROJECT_87_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_87" />
+    <Permission name="TEST_PROJECT_15_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_15" />
+    <Permission name="TEST_PROJECT_71_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_71" />
+    <Permission name="TEST_PROJECT_12_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_12" />
+    <Permission name="TEST_PROJECT_78_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_78" />
+    <Permission name="TEST_PROJECT_37_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_37" />
+    <Permission name="TEST_PROJECT_41_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_41" />
+    <Permission name="TEST_PROJECT_20_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_20" />
+    <Permission name="TEST_PROJECT_66_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_66" />
+    <Permission name="TEST_PROJECT_70_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_70" />
+    <Permission name="TEST_PROJECT_88_Guest" operation="Guest" resourceName="TEST_PROJECT_88" />
+    <Permission name="TEST_PROJECT_65_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_65" />
+    <Permission name="TEST_PROJECT_33_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_33" />
+    <Permission name="TEST_PROJECT_2_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_2" />
+    <Permission name="TEST_PROJECT_88_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_88" />
+    <Permission name="TEST_PROJECT_80_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_80" />
+    <Permission name="TEST_PROJECT_30_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_30" />
+    <Permission name="TEST_PROJECT_48_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_48" />
+    <Permission name="TEST_PROJECT_52_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_52" />
+    <Permission name="TEST_PROJECT_64_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_64" />
+    <Permission name="TEST_PROJECT_91_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_91" />
+    <Permission name="TEST_PROJECT_54_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_54" />
+    <Permission name="TEST_PROJECT_64_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_64" />
+    <Permission name="TEST_PROJECT_91_Guest" operation="Guest" resourceName="TEST_PROJECT_91" />
+    <Permission name="TEST_PROJECT_1_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_1" />
+    <Permission name="TEST_PROJECT_41_Guest" operation="Guest" resourceName="TEST_PROJECT_41" />
+    <Permission name="TEST_PROJECT_49_Guest" operation="Guest" resourceName="TEST_PROJECT_49" />
+    <Permission name="TEST_PROJECT_31_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_31" />
+    <Permission name="TEST_PROJECT_7_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_7" />
+    <Permission name="TEST_PROJECT_47_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_47" />
+    <Permission name="TEST_PROJECT_14_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_14" />
+    <Permission name="TEST_PROJECT_61_Guest" operation="Guest" resourceName="TEST_PROJECT_61" />
+    <Permission name="TEST_PROJECT_53_Guest" operation="Guest" resourceName="TEST_PROJECT_53" />
+    <Permission name="TEST_PROJECT_61_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_61" />
+    <Permission name="TEST_PROJECT_11_Guest" operation="Guest" resourceName="TEST_PROJECT_11" />
+    <Permission name="TEST_PROJECT_59_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_59" />
+    <Permission name="TEST_PROJECT_98_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_98" />
+    <Permission name="TEST_PROJECT_56_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_56" />
+    <Permission name="TEST_PROJECT_46_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_46" />
+    <Permission name="TEST_PROJECT_12_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_12" />
+    <Permission name="TEST_PROJECT_79_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_79" />
+    <Permission name="TEST_PROJECT_28_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_28" />
+    <Permission name="TEST_PROJECT_11_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_11" />
+    <Permission name="TEST_PROJECT_17_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_17" />
+    <Permission name="TEST_PROJECT_74_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_74" />
+    <Permission name="TEST_PROJECT_33_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_33" />
+    <Permission name="TEST_PROJECT_41_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_41" />
+    <Permission name="TEST_PROJECT_81_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_81" />
+    <Permission name="TEST_PROJECT_87_Guest" operation="Guest" resourceName="TEST_PROJECT_87" />
+    <Permission name="TEST_PROJECT_15_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_15" />
+    <Permission name="TEST_PROJECT_9_Guest" operation="Guest" resourceName="TEST_PROJECT_9" />
+    <Permission name="TEST_PROJECT_97_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_97" />
+    <Permission name="TEST_PROJECT_97_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_97" />
+    <Permission name="TEST_PROJECT_34_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_34" />
+    <Permission name="TEST_PROJECT_40_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_40" />
+    <Permission name="TEST_PROJECT_96_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_96" />
+    <Permission name="TEST_PROJECT_74_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_74" />
+    <Permission name="TEST_PROJECT_6_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_6" />
+    <Permission name="TEST_PROJECT_23_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_23" />
+    <Permission name="TEST_PROJECT_59_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_59" />
+    <Permission name="TEST_PROJECT_48_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_48" />
+    <Permission name="TEST_PROJECT_100_Guest" operation="Guest" resourceName="TEST_PROJECT_100" />
+    <Permission name="TEST_PROJECT_27_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_27" />
+    <Permission name="TEST_PROJECT_14_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_14" />
+    <Permission name="TEST_PROJECT_56_Guest" operation="Guest" resourceName="TEST_PROJECT_56" />
+    <Permission name="TEST_PROJECT_63_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_63" />
+    <Permission name="TEST_PROJECT_14_Guest" operation="Guest" resourceName="TEST_PROJECT_14" />
+    <Permission name="TEST_PROJECT_69_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_69" />
+    <Permission name="TEST_PROJECT_8_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_8" />
+    <Permission name="TEST_PROJECT_37_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_37" />
+    <Permission name="TEST_PROJECT_7_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_7" />
+    <Permission name="TEST_PROJECT_6_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_6" />
+    <Permission name="TEST_PROJECT_13_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_13" />
+    <Permission name="TEST_PROJECT_1_Guest" operation="Guest" resourceName="TEST_PROJECT_1" />
+    <Permission name="TEST_PROJECT_19_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_19" />
+    <Permission name="TEST_PROJECT_77_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_77" />
+    <Permission name="TEST_PROJECT_38_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_38" />
+    <Permission name="TEST_PROJECT_76_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_76" />
+    <Permission name="TEST_PROJECT_52_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_52" />
+    <Permission name="TEST_PROJECT_58_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_58" />
+    <Permission name="TEST_PROJECT_26_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_26" />
+    <Permission name="TEST_PROJECT_35_Guest" operation="Guest" resourceName="TEST_PROJECT_35" />
+    <Permission name="TEST_PROJECT_11_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_11" />
+    <Permission name="TEST_PROJECT_20_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_20" />
+    <Permission name="TEST_PROJECT_36_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_36" />
+    <Permission name="TEST_PROJECT_98_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_98" />
+    <Permission name="TEST_PROJECT_94_Guest" operation="Guest" resourceName="TEST_PROJECT_94" />
+    <Permission name="TEST_PROJECT_2_Guest" operation="Guest" resourceName="TEST_PROJECT_2" />
+    <Permission name="TEST_PROJECT_15_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_15" />
+    <Permission name="TEST_PROJECT_13_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_13" />
+    <Permission name="TEST_PROJECT_65_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_65" />
+    <Permission name="TEST_PROJECT_25_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_25" />
+    <Permission name="TEST_PROJECT_86_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_86" />
+    <Permission name="TEST_PROJECT_58_Guest" operation="Guest" resourceName="TEST_PROJECT_58" />
+    <Permission name="TEST_PROJECT_23_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_23" />
+    <Permission name="TEST_PROJECT_40_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_40" />
+    <Permission name="TEST_PROJECT_19_Guest" operation="Guest" resourceName="TEST_PROJECT_19" />
+    <Permission name="TEST_PROJECT_62_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_62" />
+    <Permission name="TEST_PROJECT_25_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_25" />
+    <Permission name="TEST_PROJECT_75_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_75" />
+    <Permission name="TEST_PROJECT_100_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_100" />
+    <Permission name="TEST_PROJECT_30_Guest" operation="Guest" resourceName="TEST_PROJECT_30" />
+    <Permission name="TEST_PROJECT_74_Guest" operation="Guest" resourceName="TEST_PROJECT_74" />
+    <Permission name="TEST_PROJECT_97_Guest" operation="Guest" resourceName="TEST_PROJECT_97" />
+    <Permission name="TEST_PROJECT_63_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_63" />
+    <Permission name="TEST_PROJECT_18_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_18" />
+    <Permission name="TEST_PROJECT_46_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_46" />
+    <Permission name="TEST_PROJECT_90_Guest" operation="Guest" resourceName="TEST_PROJECT_90" />
+    <Permission name="TEST_PROJECT_71_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_71" />
+    <Permission name="TEST_PROJECT_12_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_12" />
+    <Permission name="TEST_PROJECT_26_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_26" />
+    <Permission name="TEST_PROJECT_4_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_4" />
+    <Permission name="TEST_PROJECT_62_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_62" />
+    <Permission name="TEST_PROJECT_84_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_84" />
+    <Permission name="TEST_PROJECT_51_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_51" />
+    <Permission name="TEST_PROJECT_73_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_73" />
+    <Permission name="TEST_PROJECT_2_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_2" />
+    <Permission name="TEST_PROJECT_55_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_55" />
+    <Permission name="TEST_PROJECT_57_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_57" />
+    <Permission name="TEST_PROJECT_99_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_99" />
+    <Permission name="TEST_PROJECT_39_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_39" />
+    <Permission name="TEST_PROJECT_44_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_44" />
+    <Permission name="TEST_PROJECT_18_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_18" />
+    <Permission name="TEST_PROJECT_80_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_80" />
+    <Permission name="TEST_PROJECT_53_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_53" />
+    <Permission name="TEST_PROJECT_36_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_36" />
+    <Permission name="TEST_PROJECT_88_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_88" />
+    <Permission name="TEST_PROJECT_50_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_50" />
+    <Permission name="TEST_PROJECT_51_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_51" />
+    <Permission name="TEST_PROJECT_93_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_93" />
+    <Permission name="TEST_PROJECT_29_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_29" />
+    <Permission name="TEST_PROJECT_35_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_35" />
+    <Permission name="TEST_PROJECT_72_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_72" />
+    <Permission name="TEST_PROJECT_24_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_24" />
+    <Permission name="TEST_PROJECT_76_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_76" />
+    <Permission name="TEST_PROJECT_31_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_31" />
+    <Permission name="TEST_PROJECT_84_Guest" operation="Guest" resourceName="TEST_PROJECT_84" />
+    <Permission name="TEST_PROJECT_92_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_92" />
+    <Permission name="TEST_PROJECT_9_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_9" />
+    <Permission name="TEST_PROJECT_21_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_21" />
+    <Permission name="TEST_PROJECT_70_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_70" />
+    <Permission name="TEST_PROJECT_21_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_21" />
+    <Permission name="TEST_PROJECT_28_Guest" operation="Guest" resourceName="TEST_PROJECT_28" />
+    <Permission name="TEST_PROJECT_18_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_18" />
+    <Permission name="TEST_PROJECT_73_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_73" />
+    <Permission name="TEST_PROJECT_75_Guest" operation="Guest" resourceName="TEST_PROJECT_75" />
+    <Permission name="TEST_PROJECT_53_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_53" />
+    <Permission name="TEST_PROJECT_57_Guest" operation="Guest" resourceName="TEST_PROJECT_57" />
+    <Permission name="TEST_PROJECT_14_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_14" />
+    <Permission name="TEST_PROJECT_16_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_16" />
+    <Permission name="TEST_PROJECT_93_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_93" />
+    <Permission name="TEST_PROJECT_12_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_12" />
+    <Permission name="TEST_PROJECT_68_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_68" />
+    <Permission name="TEST_PROJECT_72_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_72" />
+    <Permission name="TEST_PROJECT_6_Guest" operation="Guest" resourceName="TEST_PROJECT_6" />
+    <Permission name="TEST_PROJECT_99_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_99" />
+    <Permission name="TEST_PROJECT_5_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_5" />
+    <Permission name="TEST_PROJECT_8_Guest" operation="Guest" resourceName="TEST_PROJECT_8" />
+    <Permission name="TEST_PROJECT_62_Guest" operation="Guest" resourceName="TEST_PROJECT_62" />
+    <Permission name="TEST_PROJECT_100_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_100" />
+    <Permission name="TEST_PROJECT_83_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_83" />
+    <Permission name="TEST_PROJECT_22_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_22" />
+    <Permission name="TEST_PROJECT_29_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_29" />
+    <Permission name="TEST_PROJECT_36_Guest" operation="Guest" resourceName="TEST_PROJECT_36" />
+    <Permission name="TEST_PROJECT_32_Guest" operation="Guest" resourceName="TEST_PROJECT_32" />
+    <Permission name="TEST_PROJECT_61_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_61" />
+    <Permission name="TEST_PROJECT_45_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_45" />
+    <Permission name="TEST_PROJECT_67_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_67" />
+    <Permission name="TEST_PROJECT_91_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_91" />
+    <Permission name="TEST_PROJECT_3_Guest" operation="Guest" resourceName="TEST_PROJECT_3" />
+    <Permission name="TEST_PROJECT_93_Guest" operation="Guest" resourceName="TEST_PROJECT_93" />
+    <Permission name="TEST_PROJECT_61_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_61" />
+    <Permission name="TEST_PROJECT_35_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_35" />
+    <Permission name="TEST_PROJECT_97_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_97" />
+    <Permission name="TEST_PROJECT_1_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_1" />
+    <Permission name="TEST_PROJECT_83_Guest" operation="Guest" resourceName="TEST_PROJECT_83" />
+    <Permission name="TEST_PROJECT_100_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_100" />
+    <Permission name="TEST_PROJECT_45_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_45" />
+    <Permission name="TEST_PROJECT_60_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_60" />
+    <Permission name="TEST_PROJECT_69_Guest" operation="Guest" resourceName="TEST_PROJECT_69" />
+    <Permission name="TEST_PROJECT_84_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_84" />
+    <Permission name="TEST_PROJECT_89_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_89" />
+    <Permission name="TEST_PROJECT_23_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_23" />
+    <Permission name="TEST_PROJECT_94_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_94" />
+    <Permission name="TEST_PROJECT_32_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_32" />
+    <Permission name="TEST_PROJECT_57_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_57" />
+    <Permission name="TEST_PROJECT_29_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_29" />
+    <Permission name="TEST_PROJECT_34_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_34" />
+    <Permission name="TEST_PROJECT_25_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_25" />
+    <Permission name="TEST_PROJECT_49_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_49" />
+    <Permission name="TEST_PROJECT_51_Guest" operation="Guest" resourceName="TEST_PROJECT_51" />
+    <Permission name="TEST_PROJECT_59_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_59" />
+    <Permission name="TEST_PROJECT_49_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_49" />
+    <Permission name="TEST_PROJECT_98_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_98" />
+    <Permission name="TEST_PROJECT_4_Guest" operation="Guest" resourceName="TEST_PROJECT_4" />
+    <Permission name="TEST_PROJECT_67_Guest" operation="Guest" resourceName="TEST_PROJECT_67" />
+    <Permission name="TEST_PROJECT_28_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_28" />
+    <Permission name="TEST_PROJECT_87_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_87" />
+    <Permission name="TEST_PROJECT_16_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_16" />
+    <Permission name="TEST_PROJECT_17_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_17" />
+    <Permission name="TEST_PROJECT_39_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_39" />
+    <Permission name="TEST_PROJECT_4_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_4" />
+    <Permission name="TEST_PROJECT_82_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_82" />
+    <Permission name="TEST_PROJECT_55_Guest" operation="Guest" resourceName="TEST_PROJECT_55" />
+    <Permission name="TEST_PROJECT_66_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_66" />
+    <Permission name="TEST_PROJECT_69_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_69" />
+    <Permission name="TEST_PROJECT_74_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_74" />
+    <Permission name="TEST_PROJECT_47_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_47" />
+    <Permission name="TEST_PROJECT_96_Guest" operation="Guest" resourceName="TEST_PROJECT_96" />
+    <Permission name="TEST_PROJECT_34_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_34" />
+    <Permission name="TEST_PROJECT_9_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_9" />
+    <Permission name="TEST_PROJECT_82_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_82" />
+    <Permission name="TEST_PROJECT_7_Guest" operation="Guest" resourceName="TEST_PROJECT_7" />
+    <Permission name="TEST_PROJECT_90_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_90" />
+    <Permission name="TEST_PROJECT_56_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_56" />
+    <Permission name="TEST_PROJECT_54_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_54" />
+    <Permission name="TEST_PROJECT_98_Guest" operation="Guest" resourceName="TEST_PROJECT_98" />
+    <Permission name="TEST_PROJECT_88_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_88" />
+    <Permission name="TEST_PROJECT_38_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_38" />
+    <Permission name="TEST_PROJECT_33_Guest" operation="Guest" resourceName="TEST_PROJECT_33" />
+    <Permission name="TEST_PROJECT_23_Guest" operation="Guest" resourceName="TEST_PROJECT_23" />
+    <Permission name="TEST_PROJECT_90_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_90" />
+    <Permission name="TEST_PROJECT_95_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_95" />
+    <Permission name="TEST_PROJECT_30_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_30" />
+    <Permission name="TEST_PROJECT_22_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_22" />
+    <Permission name="TEST_PROJECT_36_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_36" />
+    <Permission name="TEST_PROJECT_63_Guest" operation="Guest" resourceName="TEST_PROJECT_63" />
+    <Permission name="TEST_PROJECT_59_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_59" />
+    <Permission name="TEST_PROJECT_3_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_3" />
+    <Permission name="TEST_PROJECT_64_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_64" />
+    <Permission name="TEST_PROJECT_1_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_1" />
+    <Permission name="TEST_PROJECT_47_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_47" />
+    <Permission name="TEST_PROJECT_79_Guest" operation="Guest" resourceName="TEST_PROJECT_79" />
+    <Permission name="TEST_PROJECT_95_Guest" operation="Guest" resourceName="TEST_PROJECT_95" />
+    <Permission name="TEST_PROJECT_88_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_88" />
+    <Permission name="TEST_PROJECT_50_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_50" />
+    <Permission name="TEST_PROJECT_59_Guest" operation="Guest" resourceName="TEST_PROJECT_59" />
+    <Permission name="TEST_PROJECT_90_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_90" />
+    <Permission name="TEST_PROJECT_7_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_7" />
+    <Permission name="TEST_PROJECT_96_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_96" />
+    <Permission name="TEST_PROJECT_4_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_4" />
+    <Permission name="TEST_PROJECT_24_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_24" />
+    <Permission name="TEST_PROJECT_32_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_32" />
+    <Permission name="TEST_PROJECT_45_Guest" operation="Guest" resourceName="TEST_PROJECT_45" />
+    <Permission name="TEST_PROJECT_48_Guest" operation="Guest" resourceName="TEST_PROJECT_48" />
+    <Permission name="TEST_PROJECT_46_Guest" operation="Guest" resourceName="TEST_PROJECT_46" />
+    <Permission name="TEST_PROJECT_98_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_98" />
+    <Permission name="TEST_PROJECT_78_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_78" />
+    <Permission name="TEST_PROJECT_39_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_39" />
+    <Permission name="TEST_PROJECT_44_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_44" />
+    <Permission name="TEST_PROJECT_58_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_58" />
+    <Permission name="TEST_PROJECT_56_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_56" />
+    <Permission name="TEST_PROJECT_37_Guest" operation="Guest" resourceName="TEST_PROJECT_37" />
+    <Permission name="TEST_PROJECT_19_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_19" />
+    <Permission name="TEST_PROJECT_48_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_48" />
+    <Permission name="TEST_PROJECT_89_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_89" />
+    <Permission name="TEST_PROJECT_15_Guest" operation="Guest" resourceName="TEST_PROJECT_15" />
+    <Permission name="TEST_PROJECT_43_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_43" />
+    <Permission name="TEST_PROJECT_15_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_15" />
+    <Permission name="TEST_PROJECT_80_Guest" operation="Guest" resourceName="TEST_PROJECT_80" />
+    <Permission name="TEST_PROJECT_65_Guest" operation="Guest" resourceName="TEST_PROJECT_65" />
+    <Permission name="TEST_PROJECT_40_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_40" />
+    <Permission name="TEST_PROJECT_20_Guest" operation="Guest" resourceName="TEST_PROJECT_20" />
+    <Permission name="TEST_PROJECT_83_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_83" />
+    <Permission name="TEST_PROJECT_21_Guest" operation="Guest" resourceName="TEST_PROJECT_21" />
+    <Permission name="TEST_PROJECT_19_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_19" />
+    <Permission name="TEST_PROJECT_94_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_94" />
+    <Permission name="TEST_PROJECT_20_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_20" />
+    <Permission name="TEST_PROJECT_68_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_68" />
+    <Permission name="TEST_PROJECT_68_Guest" operation="Guest" resourceName="TEST_PROJECT_68" />
+    <Permission name="TEST_PROJECT_85_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_85" />
+    <Permission name="TEST_PROJECT_87_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_87" />
+    <Permission name="TEST_PROJECT_43_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_43" />
+    <Permission name="TEST_PROJECT_6_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_6" />
+    <Permission name="TEST_PROJECT_4_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_4" />
+    <Permission name="TEST_PROJECT_10_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_10" />
+    <Permission name="TEST_PROJECT_40_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_40" />
+    <Permission name="TEST_PROJECT_34_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_34" />
+    <Permission name="TEST_PROJECT_5_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_5" />
+    <Permission name="TEST_PROJECT_58_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_58" />
+    <Permission name="TEST_PROJECT_11_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_11" />
+    <Permission name="TEST_PROJECT_52_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_52" />
+    <Permission name="TEST_PROJECT_18_Guest" operation="Guest" resourceName="TEST_PROJECT_18" />
+    <Permission name="TEST_PROJECT_81_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_81" />
+    <Permission name="TEST_PROJECT_44_Guest" operation="Guest" resourceName="TEST_PROJECT_44" />
+    <Permission name="TEST_PROJECT_67_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_67" />
+    <Permission name="TEST_PROJECT_75_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_75" />
+    <Permission name="TEST_PROJECT_25_Guest" operation="Guest" resourceName="TEST_PROJECT_25" />
+    <Permission name="TEST_PROJECT_82_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_82" />
+    <Permission name="TEST_PROJECT_13_Guest" operation="Guest" resourceName="TEST_PROJECT_13" />
+    <Permission name="TEST_PROJECT_44_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_44" />
+    <Permission name="TEST_PROJECT_26_Guest" operation="Guest" resourceName="TEST_PROJECT_26" />
+    <Permission name="TEST_PROJECT_10_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_10" />
+    <Permission name="TEST_PROJECT_10_Guest" operation="Guest" resourceName="TEST_PROJECT_10" />
+    <Permission name="TEST_PROJECT_68_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_68" />
+    <Permission name="TEST_PROJECT_41_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_41" />
+    <Permission name="TEST_PROJECT_43_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_43" />
+    <Permission name="TEST_PROJECT_90_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_90" />
+    <Permission name="TEST_PROJECT_11_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_11" />
+    <Permission name="TEST_PROJECT_16_Guest" operation="Guest" resourceName="TEST_PROJECT_16" />
+    <Permission name="TEST_PROJECT_65_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_65" />
+    <Permission name="TEST_PROJECT_86_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_86" />
+    <Permission name="TEST_PROJECT_42_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_42" />
+    <Permission name="TEST_PROJECT_25_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_25" />
+    <Permission name="TEST_PROJECT_32_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_32" />
+    <Permission name="TEST_PROJECT_30_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_30" />
+    <Permission name="TEST_PROJECT_63_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_63" />
+    <Permission name="TEST_PROJECT_68_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_68" />
+    <Permission name="TEST_PROJECT_3_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_3" />
+    <Permission name="TEST_PROJECT_89_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_89" />
+    <Permission name="TEST_PROJECT_22_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_22" />
+    <Permission name="TEST_PROJECT_85_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_85" />
+    <Permission name="TEST_PROJECT_96_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_96" />
+    <Permission name="TEST_PROJECT_38_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_38" />
+    <Permission name="TEST_PROJECT_50_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_50" />
+    <Permission name="TEST_PROJECT_12_Guest" operation="Guest" resourceName="TEST_PROJECT_12" />
+    <Permission name="TEST_PROJECT_48_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_48" />
+    <Permission name="TEST_PROJECT_84_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_84" />
+    <Permission name="TEST_PROJECT_8_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_8" />
+    <Permission name="TEST_PROJECT_85_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_85" />
+    <Permission name="TEST_PROJECT_75_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_75" />
+    <Permission name="TEST_PROJECT_69_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_69" />
+    <Permission name="TEST_PROJECT_57_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_57" />
+    <Permission name="TEST_PROJECT_40_Guest" operation="Guest" resourceName="TEST_PROJECT_40" />
+    <Permission name="TEST_PROJECT_89_Guest" operation="Guest" resourceName="TEST_PROJECT_89" />
+    <Permission name="TEST_PROJECT_77_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_77" />
+    <Permission name="TEST_PROJECT_27_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_27" />
+    <Permission name="TEST_PROJECT_18_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_18" />
+    <Permission name="TEST_PROJECT_5_Guest" operation="Guest" resourceName="TEST_PROJECT_5" />
+    <Permission name="TEST_PROJECT_51_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_51" />
+    <Permission name="TEST_PROJECT_60_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_60" />
+    <Permission name="TEST_PROJECT_54_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_54" />
+    <Permission name="TEST_PROJECT_33_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_33" />
+    <Permission name="TEST_PROJECT_58_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_58" />
+    <Permission name="TEST_PROJECT_2_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_2" />
+    <Permission name="TEST_PROJECT_39_Guest" operation="Guest" resourceName="TEST_PROJECT_39" />
+    <Permission name="TEST_PROJECT_91_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_91" />
+    <Permission name="TEST_PROJECT_28_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_28" />
+    <Permission name="TEST_PROJECT_62_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_62" />
+    <Permission name="TEST_PROJECT_82_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_82" />
+    <Permission name="TEST_PROJECT_35_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_35" />
+    <Permission name="TEST_PROJECT_67_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_67" />
+    <Permission name="TEST_PROJECT_41_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_41" />
+    <Permission name="TEST_PROJECT_8_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_8" />
+    <Permission name="TEST_PROJECT_16_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_16" />
+    <Permission name="TEST_PROJECT_95_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_95" />
+    <Permission name="TEST_PROJECT_31_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_31" />
+    <Permission name="TEST_PROJECT_1_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_1" />
+    <Permission name="TEST_PROJECT_85_Guest" operation="Guest" resourceName="TEST_PROJECT_85" />
+    <Permission name="TEST_PROJECT_79_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_79" />
+    <Permission name="TEST_PROJECT_71_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_71" />
+    <Permission name="TEST_PROJECT_72_Guest" operation="Guest" resourceName="TEST_PROJECT_72" />
+    <Permission name="TEST_PROJECT_60_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_60" />
+    <Permission name="TEST_PROJECT_5_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_5" />
+    <Permission name="TEST_PROJECT_55_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_55" />
+    <Permission name="TEST_PROJECT_26_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_26" />
+    <Permission name="TEST_PROJECT_34_Guest" operation="Guest" resourceName="TEST_PROJECT_34" />
+    <Permission name="TEST_PROJECT_29_Guest" operation="Guest" resourceName="TEST_PROJECT_29" />
+    <Permission name="TEST_PROJECT_91_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_91" />
+    <Permission name="TEST_PROJECT_83_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_83" />
+    <Permission name="TEST_PROJECT_56_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_56" />
+    <Permission name="TEST_PROJECT_35_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_35" />
+    <Permission name="TEST_PROJECT_29_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_29" />
+    <Permission name="TEST_PROJECT_23_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_23" />
+    <Permission name="TEST_PROJECT_73_Guest" operation="Guest" resourceName="TEST_PROJECT_73" />
+    <Permission name="TEST_PROJECT_92_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_92" />
+    <Permission name="TEST_PROJECT_86_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_86" />
+    <Permission name="TEST_PROJECT_45_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_45" />
+    <Permission name="TEST_PROJECT_75_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_75" />
+    <Permission name="TEST_PROJECT_76_Guest" operation="Guest" resourceName="TEST_PROJECT_76" />
+    <Permission name="TEST_PROJECT_70_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_70" />
+    <Permission name="TEST_PROJECT_70_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_70" />
+    <Permission name="TEST_PROJECT_42_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_42" />
+    <Permission name="TEST_PROJECT_24_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_24" />
+    <Permission name="TEST_PROJECT_74_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_74" />
+    <Permission name="TEST_PROJECT_73_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_73" />
+    <Permission name="TEST_PROJECT_69_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_69" />
+    <Permission name="TEST_PROJECT_76_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_76" />
+    <Permission name="TEST_PROJECT_85_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_85" />
+    <Permission name="TEST_PROJECT_49_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_49" />
+    <Permission name="TEST_PROJECT_80_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_80" />
+    <Permission name="TEST_PROJECT_94_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_94" />
+    <Permission name="TEST_PROJECT_13_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_13" />
+    <Permission name="TEST_PROJECT_7_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_7" />
+    <Permission name="TEST_PROJECT_46_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_46" />
+    <Permission name="TEST_PROJECT_60_Guest" operation="Guest" resourceName="TEST_PROJECT_60" />
+    <Permission name="TEST_PROJECT_24_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_24" />
+    <Permission name="TEST_PROJECT_47_Guest" operation="Guest" resourceName="TEST_PROJECT_47" />
+    <Permission name="TEST_PROJECT_77_Guest" operation="Guest" resourceName="TEST_PROJECT_77" />
+    <Permission name="TEST_PROJECT_71_Guest" operation="Guest" resourceName="TEST_PROJECT_71" />
+    <Permission name="TEST_PROJECT_19_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_19" />
+    <Permission name="TEST_PROJECT_49_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_49" />
+    <Permission name="TEST_PROJECT_86_Guest" operation="Guest" resourceName="TEST_PROJECT_86" />
+    <Permission name="TEST_PROJECT_71_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_71" />
+    <Permission name="TEST_PROJECT_45_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_45" />
+    <Permission name="TEST_PROJECT_67_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_67" />
+    <Permission name="TEST_PROJECT_97_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_97" />
+    <Permission name="TEST_PROJECT_79_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_79" />
+    <Permission name="TEST_PROJECT_42_Guest" operation="Guest" resourceName="TEST_PROJECT_42" />
+    <Permission name="TEST_PROJECT_57_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_57" />
+    <Permission name="TEST_PROJECT_78_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_78" />
+    <Permission name="TEST_PROJECT_37_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_37" />
+    <Permission name="TEST_PROJECT_66_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_66" />
+    <Permission name="TEST_PROJECT_60_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_60" />
+    <Permission name="TEST_PROJECT_9_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_9" />
+    <Permission name="TEST_PROJECT_42_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_42" />
+    <Permission name="TEST_PROJECT_33_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_33" />
+    <Permission name="TEST_PROJECT_81_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_81" />
+    <Permission name="TEST_PROJECT_77_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_77" />
+    <Permission name="TEST_PROJECT_94_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_94" />
+    <Permission name="TEST_PROJECT_3_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_3" />
+    <Permission name="TEST_PROJECT_65_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_65" />
+    <Permission name="TEST_PROJECT_54_Guest" operation="Guest" resourceName="TEST_PROJECT_54" />
+    <Permission name="TEST_PROJECT_54_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_54" />
+    <Permission name="TEST_PROJECT_81_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_81" />
+    <Permission name="TEST_PROJECT_42_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_42" />
+    <Permission name="TEST_PROJECT_95_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_95" />
+    <Permission name="TEST_PROJECT_99_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_99" />
+    <Permission name="TEST_PROJECT_92_Guest" operation="Guest" resourceName="TEST_PROJECT_92" />
+    <Permission name="TEST_PROJECT_77_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_77" />
+    <Permission name="TEST_PROJECT_95_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_95" />
+    <Permission name="TEST_PROJECT_13_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_13" />
+    <Permission name="TEST_PROJECT_53_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_53" />
+    <Permission name="TEST_PROJECT_30_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_30" />
+    <Permission name="TEST_PROJECT_81_Guest" operation="Guest" resourceName="TEST_PROJECT_81" />
+    <Permission name="TEST_PROJECT_55_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_55" />
+    <Permission name="TEST_PROJECT_27_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_27" />
+    <Permission name="TEST_PROJECT_72_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_72" />
+    <Permission name="TEST_PROJECT_83_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_83" />
+    <Permission name="TEST_PROJECT_79_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_79" />
+    <Permission name="TEST_PROJECT_32_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_32" />
+    <Permission name="TEST_PROJECT_22_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_22" />
+    <Permission name="TEST_PROJECT_17_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_17" />
+    <Permission name="TEST_PROJECT_38_Guest" operation="Guest" resourceName="TEST_PROJECT_38" />
+    <Permission name="TEST_PROJECT_31_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_31" />
+    <Permission name="TEST_PROJECT_17_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_17" />
+    <Permission name="TEST_PROJECT_9_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_9" />
+    <Permission name="TEST_PROJECT_6_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_6" />
+    <Permission name="TEST_PROJECT_51_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_51" />
+    <Permission name="TEST_PROJECT_52_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_52" />
+    <Permission name="TEST_PROJECT_70_Guest" operation="Guest" resourceName="TEST_PROJECT_70" />
+    <Permission name="TEST_PROJECT_78_Guest" operation="Guest" resourceName="TEST_PROJECT_78" />
+    <Permission name="TEST_PROJECT_96_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_96" />
+    <Permission name="TEST_PROJECT_72_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_72" />
+    <Permission name="TEST_PROJECT_21_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_21" />
+    <Permission name="TEST_PROJECT_92_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_92" />
+    <Permission name="TEST_PROJECT_87_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_87" />
+    <Permission name="TEST_PROJECT_99_Guest" operation="Guest" resourceName="TEST_PROJECT_99" />
+    <Permission name="TEST_PROJECT_64_Guest" operation="Guest" resourceName="TEST_PROJECT_64" />
+    <Permission name="TEST_PROJECT_66_Guest" operation="Guest" resourceName="TEST_PROJECT_66" />
+    <Permission name="TEST_PROJECT_39_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_39" />
+    <Permission name="TEST_PROJECT_24_Guest" operation="Guest" resourceName="TEST_PROJECT_24" />
+    <Permission name="TEST_PROJECT_55_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_55" />
+    <Permission name="TEST_PROJECT_8_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_8" />
+    <Permission name="TEST_PROJECT_76_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_76" />
+    <Permission name="TEST_PROJECT_93_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_93" />
+    <Permission name="TEST_PROJECT_53_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_53" />
+    <Permission name="TEST_PROJECT_27_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_27" />
+    <Permission name="TEST_PROJECT_82_Guest" operation="Guest" resourceName="TEST_PROJECT_82" />
+    <Permission name="TEST_PROJECT_46_ScrumTeam" operation="ScrumTeam" resourceName="TEST_PROJECT_46" />
+    <Permission name="TEST_PROJECT_99_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_99" />
+    <Permission name="TEST_PROJECT_26_ScrumMaster" operation="ScrumMaster" resourceName="TEST_PROJECT_26" />
+    <Permission name="TEST_PROJECT_28_ProductOwner" operation="ProductOwner" resourceName="TEST_PROJECT_28" />
+    <Permission name="TEST_PROJECT_10_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_10" />
+    <Permission name="TEST_PROJECT_21_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_21" />
+    <Permission name="TEST_PROJECT_36_Stakeholder" operation="Stakeholder" resourceName="TEST_PROJECT_36" />
   </Permissions>
   <Actors>
     <Groups />
-    <Accounts>
-      <Account id="admin" name="admin" password="21232f297a57a5a743894a0e4a801fc3" email="example@ezScrum.tw" enable="true" />      
-    </Accounts>
+    <Accounts />
   </Actors>
-  <Assigns>
-    <Assign actor="admin" role="admin" />
-    <Assign actor="admin" role="user" />
-  </Assigns>
+  <Assigns />
 </RoleBase>
 

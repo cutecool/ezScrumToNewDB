@@ -30,6 +30,7 @@ public class ShowProductBacklogAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.debug("Show Product Backlog in ShowProductBacklogAction.");
 		
 		// get session info
@@ -38,6 +39,8 @@ public class ShowProductBacklogAction extends PermissionAction {
 		// get paramter info
 		String filterType = request.getParameter("FilterType");		// 取得過濾的條件
 		StringBuilder result = (new ProductBacklogHelper(project)).getShowProductBacklogResponseText(filterType);
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetSprintBurndownChartDataAction:" + (time2 - time1));
 		return result;
 	}
 }

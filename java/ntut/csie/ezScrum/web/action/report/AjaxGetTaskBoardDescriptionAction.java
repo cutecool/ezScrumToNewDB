@@ -2,16 +2,19 @@ package ntut.csie.ezScrum.web.action.report;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 import ntut.csie.ezScrum.web.action.PermissionAction;
 import ntut.csie.ezScrum.web.control.TaskBoard;
 import ntut.csie.ezScrum.web.dataObject.ProjectObject;
 import ntut.csie.ezScrum.web.logic.SprintBacklogLogic;
 import ntut.csie.ezScrum.web.mapper.SprintBacklogMapper;
 import ntut.csie.ezScrum.web.support.SessionManager;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionMapping;
+
 import com.google.gson.Gson;
 
 public class AjaxGetTaskBoardDescriptionAction extends PermissionAction {
@@ -31,6 +34,7 @@ public class AjaxGetTaskBoardDescriptionAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Get Task Board Description. In Project Summary Page.");
 		ProjectObject project = SessionManager.getProjectObject(request);
 		
@@ -42,7 +46,10 @@ public class AjaxGetTaskBoardDescriptionAction extends PermissionAction {
 			board = new TaskBoard(sprintBacklogLogic, sprintBacklogMapper);
 		}
 		TaskBoardUI tbui = new TaskBoardUI(board);
-		return new StringBuilder( (new Gson()).toJson(tbui) );
+		StringBuilder str = new StringBuilder( (new Gson()).toJson(tbui));
+		long time2 = System.currentTimeMillis();
+		System.out.println("viewProjectList:" + (time2 - time1));
+		return str;
 	}
 	
 	private class TaskBoardUI {

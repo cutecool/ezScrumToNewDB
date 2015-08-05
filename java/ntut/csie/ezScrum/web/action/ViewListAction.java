@@ -21,7 +21,7 @@ public class ViewListAction extends Action {
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 	        HttpServletRequest request, HttpServletResponse response) {
-
+		long time1 = System.currentTimeMillis();
 		// 取得使用者登入資料
 		IUserSession userSession = (IUserSession) request.getSession().getAttribute("UserSession");
 		AccountObject account = userSession.getAccount();
@@ -42,7 +42,8 @@ public class ViewListAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		long time2 = System.currentTimeMillis();
+		System.out.println("viewProjectList:" + (time2 - time1));
 		return null;
 	}
 }

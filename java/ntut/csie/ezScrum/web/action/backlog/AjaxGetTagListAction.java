@@ -21,6 +21,7 @@ public class AjaxGetTagListAction extends Action {
 	
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Get Tag List in AjaxGetTagListAction. ");
 		ProjectObject project = SessionManager.getProjectObject(request);
 		String result = (new ProductBacklogHelper(project)).getTagListResponseText().toString();
@@ -32,7 +33,8 @@ public class AjaxGetTagListAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxGetTagList:" + (time2 - time1));
 		return null;
 	}
 }

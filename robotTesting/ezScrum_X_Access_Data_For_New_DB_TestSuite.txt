@@ -18,9 +18,9 @@ Test Login to project summary page
     \    Close All Browsers
 
 Test view ProductBacklog list
-    :FOR    ${INDEX}    IN RANGE    1    11
+    : FOR    ${INDEX}    IN RANGE    1    11
     \    ${time1}=    Get Time    epoch
-    \    Login and enter
+    \    Login and enter    TEST_DISPLAYNAME_1
     \    Select Node Product    Product Backlog
     \    Wait Until Element Is Visible    //span[@class="x-panel-header-text" and text()="Product Backlog"]
     \    ${time2}=    Get Time    epoch
