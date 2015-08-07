@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import ntut.csie.ezScrum.pic.core.IUserSession;
 import ntut.csie.ezScrum.web.action.PermissionAction;
-import ntut.csie.ezScrum.web.dataObject.AccountObject;
 import ntut.csie.ezScrum.web.dataObject.ProjectObject;
 import ntut.csie.ezScrum.web.dataObject.TaskObject;
 import ntut.csie.ezScrum.web.support.SessionManager;
@@ -35,6 +34,7 @@ public class ShowAddExistedTaskAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Show wild Tasks in ShowAddExistedTaskAction");
 		
 		// get session info
@@ -74,7 +74,9 @@ public class ShowAddExistedTaskAction extends PermissionAction {
 			}
 		}
 		sb.append("</Tasks>");
-
+		long time2 = System.currentTimeMillis();
+		System.out.println("ShowAddExistedTaskAction:" + (time2 - time1));
+		
 		return sb;
 	}
 }

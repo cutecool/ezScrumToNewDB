@@ -23,6 +23,7 @@ public class ShowSprintBacklogListInfoAction extends Action {
 
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Show Sprint Backlog List Information in ShowSprintBacklogListInfo.");
 
 		ProjectObject projectObject = (ProjectObject) SessionManager.getProjectObject(request);
@@ -48,7 +49,8 @@ public class ShowSprintBacklogListInfoAction extends Action {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		long time2 = System.currentTimeMillis();
+		System.out.println("ShowSprintBacklogListInfoAction:" + (time2 - time1));
 		return null;
 	}
 

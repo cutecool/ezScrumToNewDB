@@ -26,7 +26,7 @@ public class GetSprintInfoForTaskBoardAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 	        HttpServletRequest request, HttpServletResponse response) {
-		
+		long time1 = System.currentTimeMillis();
 		// get project from session or DB
 		ProjectObject project = SessionManager.getProjectObject(request);
 		// get parameter info
@@ -35,6 +35,9 @@ public class GetSprintInfoForTaskBoardAction extends PermissionAction {
 		if (sprintIdString != null && sprintIdString != "") {
 			sprintId = Long.parseLong(request.getParameter("SprintID"));
 		}
-		return new TaskBoardHelper(project, sprintId).getSprintInfoForTaskBoardText();
+		StringBuilder str = new TaskBoardHelper(project, sprintId).getSprintInfoForTaskBoardText();
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetSprintInfoForTaskBoardAction:" + (time2 - time1));
+		return str;
 	}
 }

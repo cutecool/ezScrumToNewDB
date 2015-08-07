@@ -31,6 +31,7 @@ public class GetEditStoryInfoAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Get Edit Story Information in GetEditStoryInfoAction.");
 		ProjectObject project = SessionManager.getProjectObject(request);
 		
@@ -38,6 +39,8 @@ public class GetEditStoryInfoAction extends PermissionAction {
 		long issueId = Long.parseLong(request.getParameter("issueID"));
 		StoryObject story = StoryObject.get(issueId);
 		StringBuilder result = new ProductBacklogHelper(project).translateStoryToXML(story);
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetEditStoryInfoAction:" + (time2 - time1));
 		return result;
 	}
 }

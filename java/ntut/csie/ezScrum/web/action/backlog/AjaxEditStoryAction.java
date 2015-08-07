@@ -33,6 +33,7 @@ public class AjaxEditStoryAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Edit Story in AjaxEditStoryAction.");
 		
 		// get session info
@@ -61,6 +62,8 @@ public class AjaxEditStoryAction extends PermissionAction {
 		storyInfo.sprintId = story.getSprintId();
 		story = productBacklogHelper.updateStory(id, storyInfo);
 		StringBuilder result = productBacklogHelper.translateStoryToJson(story);
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxEditStoryAction:" + (time2 - time1));
 		return result;
 	}
 }

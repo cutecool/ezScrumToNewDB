@@ -34,13 +34,12 @@ public class AjaxGetHandlerListWithAllAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Get Handler List With All in AjaxGetHandlerListWithAllAction.java");
 		// get project from session or DB
 		ProjectObject project = (ProjectObject) SessionManager.getProjectObject(request);
 		IUserSession userSession = (IUserSession) request.getSession().getAttribute("UserSession");
 		
-//		MantisAccountMapper helper = new MantisAccountMapper(project, session);
-//		List<String> actors = helper.getScrumWorkerList();
 		IProject iProject = new ProjectMapper().getProjectByID(project.getName());
 		List<String> actors = (new ProjectMapper()).getProjectScrumWorkerList(userSession, iProject);
 
@@ -58,7 +57,8 @@ public class AjaxGetHandlerListWithAllAction extends PermissionAction {
 		}
 		
 		result.append("</Handlers>");
-		
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxGetHandlerListWithAllAction:" + (time2 - time1));
 		return result;
 	}
 }

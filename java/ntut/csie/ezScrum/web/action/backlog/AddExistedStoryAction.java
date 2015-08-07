@@ -32,8 +32,8 @@ public class AddExistedStoryAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Add wild stories in AddExistedStoryAction");
-		
 		// get parameter info
 		ProjectObject project = SessionManager.getProjectObject(request);
 		String[] selectedStoriesId = request.getParameterValues("selects");
@@ -54,6 +54,8 @@ public class AddExistedStoryAction extends PermissionAction {
 			sprintBacklogHelper.addExistingStory(addedStoriesId);
 		} catch(Exception e) {
 		}
+		long time2 = System.currentTimeMillis();
+		System.out.println("AddExistedStoryAction:" + (time2 - time1));
 		
 		return new StringBuilder("");
 	}

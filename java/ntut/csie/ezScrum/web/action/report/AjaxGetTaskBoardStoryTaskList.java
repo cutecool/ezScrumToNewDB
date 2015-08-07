@@ -29,6 +29,7 @@ public class AjaxGetTaskBoardStoryTaskList extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 	        HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		// get project from session or DB
 		ProjectObject project = (ProjectObject) SessionManager.getProjectObject(request);
 		// get parameter info
@@ -45,7 +46,9 @@ public class AjaxGetTaskBoardStoryTaskList extends PermissionAction {
 		if (request.getParameter("UserID") != null) { 
 			name = request.getParameter("UserID");	// filter name
 		}
-
-		return new TaskBoardHelper(project, sprintId).getTaskBoardStoryTaskListText(name);
+		StringBuilder str = new TaskBoardHelper(project, sprintId).getTaskBoardStoryTaskListText(name); 
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxGetTaskBoardStoryTaskList:" + (time2 - time1));
+		return str;
 	}
 }

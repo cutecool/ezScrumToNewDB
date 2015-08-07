@@ -46,7 +46,7 @@ public class AddTestDataTest {
 		CPB = new CreateProductBacklog(100, CP);
 		CPB.exe();
 		
-		CT = new CreateTask(100, CP);
+		CT = new CreateTask(100, 2, -1, CP);
 		CT.exe();
 		
 		CG = new CreateTag(100, CP);

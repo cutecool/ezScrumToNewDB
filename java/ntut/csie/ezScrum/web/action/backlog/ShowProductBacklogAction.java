@@ -40,7 +40,7 @@ public class ShowProductBacklogAction extends PermissionAction {
 		String filterType = request.getParameter("FilterType");		// 取得過濾的條件
 		StringBuilder result = (new ProductBacklogHelper(project)).getShowProductBacklogResponseText(filterType);
 		long time2 = System.currentTimeMillis();
-		System.out.println("GetSprintBurndownChartDataAction:" + (time2 - time1));
+		System.out.println("ShowProductBacklogAction:" + (time2 - time1));
 		return result;
 	}
 }

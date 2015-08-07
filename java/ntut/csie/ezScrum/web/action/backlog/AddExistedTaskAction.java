@@ -30,6 +30,7 @@ public class AddExistedTaskAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Add wild tasks in AddExistedTaskAction");
 		
 		// get parameter info
@@ -55,6 +56,8 @@ public class AddExistedTaskAction extends PermissionAction {
 		} catch (Exception e) {
 			return new StringBuilder(e.getMessage());
 		}
+		long time2 = System.currentTimeMillis();
+		System.out.println("AddExistedTaskAction:" + (time2 - time1));
 		
 		return new StringBuilder("");
 	}

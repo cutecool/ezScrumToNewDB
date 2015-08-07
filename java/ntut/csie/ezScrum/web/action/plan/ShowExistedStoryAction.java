@@ -31,7 +31,7 @@ public class ShowExistedStoryAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
-		
+		long time1 = System.currentTimeMillis();
 		// get session info
 		ProjectObject project = SessionManager.getProjectObject(request);
 		
@@ -64,6 +64,8 @@ public class ShowExistedStoryAction extends PermissionAction {
 		} 
 		
 		StringBuilder sb = new StringBuilder( sprintBacklogHelper.getStoriesInSprintResponseText(stories) );
+		long time2 = System.currentTimeMillis();
+		System.out.println("ShowExistedStoryAction:" + (time2 - time1));
 		
 		return sb;
 	}

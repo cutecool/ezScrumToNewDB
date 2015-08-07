@@ -43,6 +43,7 @@ public class ShowIssueHistoryAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Show Issue History. ");
 
 		// get project from session or DB
@@ -75,6 +76,8 @@ public class ShowIssueHistoryAction extends PermissionAction {
 			}
 		}
 		Gson gson = new Gson();
+		long time2 = System.currentTimeMillis();
+		System.out.println("ShowIssueHistoryAction:" + (time2 - time1));
 		return new StringBuilder(gson.toJson(ihui));
 	}
 

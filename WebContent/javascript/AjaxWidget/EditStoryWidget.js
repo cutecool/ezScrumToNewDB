@@ -141,7 +141,7 @@ ezScrum.EditStoryForm = Ext.extend(Ext.form.FormPanel, {
 		        },{
 		            fieldLabel: 'Estimate',
 		            name: 'Estimate',
-		            vtype: 'Float'		
+		            vtype: 'Number'		
 		        },{
 		            fieldLabel: 'Importance',
 		            name: 'Importance',

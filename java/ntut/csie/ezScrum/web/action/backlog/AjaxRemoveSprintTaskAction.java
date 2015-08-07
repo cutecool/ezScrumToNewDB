@@ -27,6 +27,7 @@ public class AjaxRemoveSprintTaskAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		ProjectObject project = SessionManager.getProjectObject(request);
 		
 		//  get parameter info
@@ -41,7 +42,8 @@ public class AjaxRemoveSprintTaskAction extends PermissionAction {
 		result.append("<DropTask><Result>true</Result><Task><Id>")
 				.append(taskId)
 				.append("</Id></Task></DropTask>");
-		
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxRemoveSprintTaskAction:" + (time2 - time1));
 		return result;
 	}
 }

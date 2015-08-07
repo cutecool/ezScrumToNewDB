@@ -38,7 +38,7 @@ public class GetSprintPlanComboInfoAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
-
+		long time1 = System.currentTimeMillis();
 		log.info("Get Sprint Plan Combo Information in GetSprintPlanComboInfoAction");
 		
 		// get project from session or DB
@@ -61,7 +61,10 @@ public class GetSprintPlanComboInfoAction extends PermissionAction {
 		SprintPlanUI spui = new SprintPlanUI(plans, currentPlan);
 		
 		Gson gson = new Gson();
-		return new StringBuilder(gson.toJson(spui));
+		StringBuilder str = new StringBuilder(gson.toJson(spui));
+		long time2 = System.currentTimeMillis();
+		System.out.println("GetSprintPlanComboInfoAction:" + (time2 - time1));
+		return str;
 	}
 	
 	private class SprintPlanUI {

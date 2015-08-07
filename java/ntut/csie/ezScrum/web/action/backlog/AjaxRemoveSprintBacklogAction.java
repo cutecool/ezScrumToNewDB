@@ -30,6 +30,7 @@ public class AjaxRemoveSprintBacklogAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info(" Remove Sprint Backlog. ");
 		// get session info
 		ProjectObject project = SessionManager.getProjectObject(request);
@@ -48,6 +49,8 @@ public class AjaxRemoveSprintBacklogAction extends PermissionAction {
 		}catch (Exception e) {
 			result = "<DropStory><Result>false</Result></DropStory>";
 		}
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxRemoveSprintBacklogAction:" + (time2 - time1));
 		
 		return new StringBuilder(result);
 	}

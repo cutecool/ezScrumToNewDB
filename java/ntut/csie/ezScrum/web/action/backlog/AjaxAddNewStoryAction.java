@@ -32,6 +32,7 @@ public class AjaxAddNewStoryAction extends PermissionAction {
 	@Override
 	public StringBuilder getResponse(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response) {
+		long time1 = System.currentTimeMillis();
 		log.info("Add New Story in AjaxAddNewStoryAction.");
 		ProjectObject project = SessionManager.getProjectObject(request);
 		
@@ -58,6 +59,8 @@ public class AjaxAddNewStoryAction extends PermissionAction {
 		long storyId = productBacklogHelper.addStory(project.getId(), storyInfo);
 		StoryObject story = StoryObject.get(storyId);
 		StringBuilder result = productBacklogHelper.translateStoryToJson(story);
+		long time2 = System.currentTimeMillis();
+		System.out.println("AjaxAddNewStoryAction:" + (time2 - time1));
 		return result;
 	}
 }
